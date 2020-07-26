@@ -1,0 +1,30 @@
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\7za.exe
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\bchunk.exe
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\PS2 Codex.dll
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\PS2 Codex.pdb
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\DiscUtils.Common.dll
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\DiscUtils.dll
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\DiscUtils.pdb
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\DiscUtils.xml
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\DiscUtils.Common.pdb
+V:\Development\PS2 GameID Renamer\PS2 Codex\bin\Debug\DiscUtils.Common.xml
+V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\Codex.csprojAssemblyReference.cache
+V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\Codex.csproj.CoreCompileInputs.cache
+V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\Codex.csproj.CopyComplete
+V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\PS2 Codex.dll
+V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\7za.exe
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\bchunk.exe
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\DiscUtils.Common.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\DiscUtils.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\DiscUtils.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\DiscUtils.xml
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\DiscUtils.Common.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\DiscUtils.Common.xml
+V:\Development\PS2 ISO Helper\Codex\obj\Debug\Codex.csprojAssemblyReference.cache
+V:\Development\PS2 ISO Helper\Codex\obj\Debug\Codex.csproj.CoreCompileInputs.cache
+V:\Development\PS2 ISO Helper\Codex\obj\Debug\Codex.csproj.CopyComplete
+V:\Development\PS2 ISO Helper\Codex\obj\Debug\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\Codex\obj\Debug\PS2 Codex.pdb

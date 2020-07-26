@@ -1,0 +1,45 @@
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\PS2 Image Reader.exe.config
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\PS2 Image Reader.exe
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\PS2 Image Reader.pdb
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.csprojAssemblyReference.cache
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\MainWindow.g.cs
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\App.g.cs
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader_MarkupCompile.cache
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader_MarkupCompile.lref
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\MainWindow.baml
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.g.resources
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2_Image_Reader.Properties.Resources.resources
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.csproj.GenerateResource.cache
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.csproj.CoreCompileInputs.cache
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.csproj.CopyComplete
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.exe
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\obj\Debug\PS2 Image Reader.pdb
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\DiscUtils.Common.dll
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\DiscUtils.dll
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\DiscUtils.pdb
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\DiscUtils.xml
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\DiscUtils.Common.pdb
+C:\Users\bourg\source\repos\PS2 Image Reader\PS2 Image Reader\bin\Debug\DiscUtils.Common.xml
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\PS2 Image Reader.exe.config
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\PS2 Image Reader.exe
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\PS2 Image Reader.pdb
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\DiscUtils.dll
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\PS2 Codex.dll
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\PS2 Codex.pdb
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\DiscUtils.pdb
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\DiscUtils.xml
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.csprojAssemblyReference.cache
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\MainWindow.g.cs
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\App.g.cs
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader_MarkupCompile.cache
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader_MarkupCompile.lref
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\MainWindow.baml
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.g.resources
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2_Image_Reader.Properties.Resources.resources
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.csproj.GenerateResource.cache
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.csproj.CoreCompileInputs.cache
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.csproj.CopyComplete
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.exe
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.pdb
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\bchunk.exe
+V:\Development\PS2 GameID Renamer\PS2 Image Reader\bin\Debug\7za.exe
