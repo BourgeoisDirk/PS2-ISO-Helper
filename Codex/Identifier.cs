@@ -1,5 +1,12 @@
-﻿using System;
+﻿using SharpCompress.Archives;
+using SharpCompress.Archives.Rar;
+using SharpCompress.Archives.SevenZip;
+using SharpCompress.Archives.Zip;
+using SharpCompress.Common;
+using SharpCompress.Readers;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -48,10 +55,10 @@ namespace PS2_Codex
             ShortenTo32Characters = true;
         }
 
-        public bool Initialized { get; set; }
-        public string SourceDirectory { get; set; }
-        public string TargetFailureDirectory { get; set; }
-        public string TargetSuccessDirectory { get; set; }
+        public bool Initialized { get; private set; }
+        public string SourceDirectory { get; private set; }
+        public string TargetFailureDirectory { get; private set; }
+        public string TargetSuccessDirectory { get; private set; }
 
         public bool LimitCharacters { get; set; }
         public bool RemoveBracketContent { get; set; }
@@ -168,7 +175,7 @@ namespace PS2_Codex
             }            
 
             int counter = 0;
-            var zipList = new DirectoryInfo(SourceDirectory).GetFiles("*.*", SearchOption.TopDirectoryOnly).Where(x => "*.7z,*.zip".Contains(x.Extension.ToLower()));
+            var zipList = new DirectoryInfo(SourceDirectory).GetFiles("*.*", SearchOption.TopDirectoryOnly).Where(x => "*.7z,*.zip,*.rar".Contains(x.Extension.ToLower()));
             ActionStart?.Invoke(Actions.Unzip, zipList.Count());
 
             foreach (var zipFile in zipList)
@@ -199,19 +206,50 @@ namespace PS2_Codex
         {
             try
             {
-                string pathCap = "\"{0}\"";
-                string[] arguments = { "x", "-y", string.Format(pathCap, path), "-o" + Path.GetDirectoryName(path) };
-
-                var process = new System.Diagnostics.Process
+                switch (Path.GetExtension(path).ToLower())
                 {
-                    StartInfo = new System.Diagnostics.ProcessStartInfo
-                    {
-                        FileName = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), "7za.exe"),
-                        Arguments = String.Join(" ", arguments)
-                    }
-                };
-                process.Start();
-                process.WaitForExit();
+                    case ".7z":
+                        using (var archive = SevenZipArchive.Open(path))
+                        {
+                            foreach (var entry in archive.Entries.Where(entry => !entry.IsDirectory))
+                            {
+                                entry.WriteToDirectory(Path.GetDirectoryName(path), new ExtractionOptions()
+                                {
+                                    ExtractFullPath = true,
+                                    Overwrite = true
+                                });
+                            }
+                        }
+                        break;
+                    case ".zip":
+                        using (var archive = ZipArchive.Open(path))
+                        {
+                            foreach (var entry in archive.Entries.Where(entry => !entry.IsDirectory))
+                            {
+                                entry.WriteToDirectory(Path.GetDirectoryName(path), new ExtractionOptions()
+                                {
+                                    ExtractFullPath = true,
+                                    Overwrite = true
+                                });
+                            }
+                        }
+                        break;
+                    case ".rar":
+                        using (var archive = RarArchive.Open(path))
+                        {
+                            foreach (var entry in archive.Entries.Where(entry => !entry.IsDirectory))
+                            {
+                                entry.WriteToDirectory(Path.GetDirectoryName(path), new ExtractionOptions()
+                                {
+                                    ExtractFullPath = true,
+                                    Overwrite = true
+                                });
+                            }
+                        }
+                        break;
+                    default:
+                        break;
+                }
             }
             catch (Exception ex)
             {
@@ -276,7 +314,8 @@ namespace PS2_Codex
                     StartInfo = new System.Diagnostics.ProcessStartInfo
                     {
                         FileName = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), "bchunk.exe"),
-                        Arguments = String.Join(" ", arguments)
+                        Arguments = String.Join(" ", arguments),
+                        WindowStyle = ProcessWindowStyle.Hidden
                     }
                 };
                 process.Start();
@@ -461,7 +500,13 @@ namespace PS2_Codex
                 }
 
                 if (RemoveBracketContent)
-                    name = Regex.Replace(name, @" \((.*?)\)", "");  // Remove everything between ( and ), including the Brackets and leadeing Space
+                {
+                    for (int i = 1; i < 4; i++)
+                        if (name.Contains(string.Format("(Disc {0})", i)))
+                            name = name.Replace(string.Format("(Disc {0})", i), string.Format("- Disc {0}", i));
+                    
+                    name = Regex.Replace(name, @" \((.*?)\)", "");  // Remove everything between ( and ), including the Brackets and leading Space
+                }
 
                 if (ShortenTo32Characters) { 
                     int counter = 0;

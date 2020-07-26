@@ -21,7 +21,6 @@ V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\GUI.csproj.CoreComp
 V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\GUI.csproj.CopyComplete
 V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.exe
 V:\Development\PS2 GameID Renamer\PS2 Image Reader\obj\Debug\PS2 Image Reader.pdb
-V:\Development\PS2 ISO Helper\GUI\bin\Debug\7za.exe
 V:\Development\PS2 ISO Helper\GUI\bin\Debug\bchunk.exe
 V:\Development\PS2 ISO Helper\GUI\bin\Debug\PS2 Image Reader.exe.config
 V:\Development\PS2 ISO Helper\GUI\bin\Debug\PS2 Image Reader.exe
@@ -44,3 +43,12 @@ V:\Development\PS2 ISO Helper\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
 V:\Development\PS2 ISO Helper\GUI\obj\Debug\GUI.csproj.CopyComplete
 V:\Development\PS2 ISO Helper\GUI\obj\Debug\PS2 Image Reader.exe
 V:\Development\PS2 ISO Helper\GUI\obj\Debug\PS2 Image Reader.pdb
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\SharpCompress.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Memory.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Buffers.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Numerics.Vectors.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Memory.xml
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Buffers.xml
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Numerics.Vectors.xml
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

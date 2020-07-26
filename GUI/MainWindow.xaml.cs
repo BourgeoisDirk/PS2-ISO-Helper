@@ -21,12 +21,36 @@ namespace PS2_Image_Reader
             TargetBadISO_Textbox.Text = SourceDirectory_Textbox.Text + @"\FAILED";
         }
 
+        private void OPLFriendly_CheckBox_Checked(object sender, RoutedEventArgs e)
+        {
+            if (this.IsLoaded)
+            {
+                LimitCharacters_CheckBox.IsEnabled = OPLFriendly_CheckBox.IsChecked.Value;
+                RemoveBracketContent_CheckBox.IsEnabled = OPLFriendly_CheckBox.IsChecked.Value;
+                ShortenTo32Characters_CheckBox.IsEnabled = OPLFriendly_CheckBox.IsChecked.Value;
+            }      
+        }
+
+        private void OPLFriendly_CheckBox_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if (this.IsLoaded) 
+            { 
+                LimitCharacters_CheckBox.IsEnabled = OPLFriendly_CheckBox.IsChecked.Value;
+                RemoveBracketContent_CheckBox.IsEnabled = OPLFriendly_CheckBox.IsChecked.Value;
+                ShortenTo32Characters_CheckBox.IsEnabled = OPLFriendly_CheckBox.IsChecked.Value;
+            }
+        }
+
         private void Beta()
         {
-            bool opl = OPLFriendly_CheckBox.IsChecked.Value;
             string source = SourceDirectory_Textbox.Text;
             string targetOK = SourceDirectory_Textbox.Text;
             string targetNOK = TargetBadISO_Textbox.Text;
+
+            bool opl = OPLFriendly_CheckBox.IsChecked.Value;
+            bool limit = LimitCharacters_CheckBox.IsChecked.Value;
+            bool brackets = RemoveBracketContent_CheckBox.IsChecked.Value;
+            bool shorten = ShortenTo32Characters_CheckBox.IsChecked.Value;
 
             new Thread(() =>
             {
@@ -43,9 +67,9 @@ namespace PS2_Image_Reader
 
                 if (opl)
                 {
-                    identifier.LimitCharacters = true;
-                    identifier.RemoveBracketContent = true;
-                    identifier.ShortenTo32Characters = true;
+                    identifier.LimitCharacters = limit;
+                    identifier.RemoveBracketContent = brackets; 
+                    identifier.ShortenTo32Characters = shorten;
                 }
                 
                 identifier.Initialize(source, targetNOK, targetOK, true);
@@ -106,5 +130,6 @@ namespace PS2_Image_Reader
                 Output_Textbox.Text = DateTime.Now.ToString("HH:mm:ss") + "    " + line + Environment.NewLine + Output_Textbox.Text; 
             });
         }
+
     }
 }

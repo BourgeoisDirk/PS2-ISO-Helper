@@ -13,7 +13,6 @@ V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\Codex.csproj.CoreCompileIn
 V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\Codex.csproj.CopyComplete
 V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\PS2 Codex.dll
 V:\Development\PS2 GameID Renamer\PS2 Codex\obj\Debug\PS2 Codex.pdb
-V:\Development\PS2 ISO Helper\Codex\bin\Debug\7za.exe
 V:\Development\PS2 ISO Helper\Codex\bin\Debug\bchunk.exe
 V:\Development\PS2 ISO Helper\Codex\bin\Debug\PS2 Codex.dll
 V:\Development\PS2 ISO Helper\Codex\bin\Debug\PS2 Codex.pdb
@@ -28,3 +27,12 @@ V:\Development\PS2 ISO Helper\Codex\obj\Debug\Codex.csproj.CoreCompileInputs.cac
 V:\Development\PS2 ISO Helper\Codex\obj\Debug\Codex.csproj.CopyComplete
 V:\Development\PS2 ISO Helper\Codex\obj\Debug\PS2 Codex.dll
 V:\Development\PS2 ISO Helper\Codex\obj\Debug\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\SharpCompress.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Buffers.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Memory.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Numerics.Vectors.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Buffers.xml
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Memory.xml
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Numerics.Vectors.xml
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

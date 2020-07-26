@@ -5,17 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PS2_Image_Reader"
         mc:Ignorable="d"
-        Title="PS2 ISO Helper" Height="543.445" Width="811">
+        Title="PS2 ISO Helper" Height="597.039" Width="811">
     <Grid>
-        <TextBox x:Name="SourceDirectory_Textbox" HorizontalAlignment="Left" Height="23" Margin="228,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" LostFocus="SourceDirectory_Textbox_LostFocus"/>
-        <Button x:Name="Go_Button" Content="Go" HorizontalAlignment="Left" Margin="707,81,0,0" VerticalAlignment="Top" Width="75" Click="Go_Button_Click"/>
+        <TextBox x:Name="SourceDirectory_Textbox" Height="23" Margin="228,11,21,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="SourceDirectory_Textbox_LostFocus"/>
+        <Button x:Name="Go_Button" Content="Go" Margin="707,81,21,0" VerticalAlignment="Top" Click="Go_Button_Click"/>
         <Label Content="Source Files Directory" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="213"/>
-        <TextBox x:Name="TargetBadISO_Textbox" HorizontalAlignment="Left" Height="23" Margin="228,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="554" IsEnabled="False"/>
+        <TextBox x:Name="TargetBadISO_Textbox" Height="23" Margin="228,46,21,0" TextWrapping="Wrap" VerticalAlignment="Top" IsEnabled="False"/>
         <Label Content="Failed Files Directory" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" Width="213"/>
-        <TextBlock x:Name="Status_TextBlock" HorizontalAlignment="Left" Margin="10,134,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="208" Height="20" FontSize="10"/>
-        <TextBox x:Name="Output_Textbox" HorizontalAlignment="Left" Height="335" Margin="10,159,0,-1" TextWrapping="Wrap" VerticalAlignment="Top" Width="772" IsEnabled="False"/>
-        <ProgressBar x:Name="StatusBar" HorizontalAlignment="Left" Height="20" Margin="223,134,0,0" VerticalAlignment="Top" Width="559" />
-        <CheckBox x:Name="OPLFriendly_CheckBox" Content="Make filename OPL Friendly" HorizontalAlignment="Left" Margin="228,81,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="OPLFriendly_CheckBox" Content="Make filename OPL Friendly" HorizontalAlignment="Left" Margin="13,82,0,0" VerticalAlignment="Top" IsChecked="True" Checked="OPLFriendly_CheckBox_Checked" Unchecked="OPLFriendly_CheckBox_Unchecked"/>
+        <CheckBox x:Name="LimitCharacters_CheckBox" Content="Limit Characters to &quot; abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_()[]&quot;" HorizontalAlignment="Left" Margin="34,102,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="RemoveBracketContent_CheckBox" Content="Remove Brackets &quot;(&quot; and &quot;)&quot; with Content" HorizontalAlignment="Left" Margin="34,117,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="ShortenTo32Characters_CheckBox" Content="Shorten the Game Name to 32 Characters" HorizontalAlignment="Left" Margin="34,132,0,0" VerticalAlignment="Top" IsChecked="True"/>
 
+        <TextBlock x:Name="Status_TextBlock" HorizontalAlignment="Left" Margin="10,183,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="208" Height="20" FontSize="10"/>
+        <ProgressBar x:Name="StatusBar" Height="20" Margin="223,183,21,0" VerticalAlignment="Top" />
+        <TextBox x:Name="Output_Textbox" Margin="10,208,21,23" TextWrapping="NoWrap" IsReadOnly="True"/>
     </Grid>
 </Window>
