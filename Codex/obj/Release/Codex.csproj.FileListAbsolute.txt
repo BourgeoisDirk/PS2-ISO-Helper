@@ -1,0 +1,15 @@
+V:\Development\PS2 ISO Helper\Codex\bin\Release\7za.exe
+V:\Development\PS2 ISO Helper\Codex\bin\Release\bchunk.exe
+V:\Development\PS2 ISO Helper\Codex\bin\Release\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Release\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Release\DiscUtils.Common.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Release\DiscUtils.dll
+V:\Development\PS2 ISO Helper\Codex\bin\Release\DiscUtils.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Release\DiscUtils.xml
+V:\Development\PS2 ISO Helper\Codex\bin\Release\DiscUtils.Common.pdb
+V:\Development\PS2 ISO Helper\Codex\bin\Release\DiscUtils.Common.xml
+V:\Development\PS2 ISO Helper\Codex\obj\Release\Codex.csprojAssemblyReference.cache
+V:\Development\PS2 ISO Helper\Codex\obj\Release\Codex.csproj.CoreCompileInputs.cache
+V:\Development\PS2 ISO Helper\Codex\obj\Release\Codex.csproj.CopyComplete
+V:\Development\PS2 ISO Helper\Codex\obj\Release\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\Codex\obj\Release\PS2 Codex.pdb

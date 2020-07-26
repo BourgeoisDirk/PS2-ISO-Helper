@@ -1,0 +1,23 @@
+V:\Development\PS2 ISO Helper\GUI\bin\Release\7za.exe
+V:\Development\PS2 ISO Helper\GUI\bin\Release\bchunk.exe
+V:\Development\PS2 ISO Helper\GUI\bin\Release\PS2 Image Reader.exe.config
+V:\Development\PS2 ISO Helper\GUI\bin\Release\PS2 Image Reader.exe
+V:\Development\PS2 ISO Helper\GUI\bin\Release\PS2 Image Reader.pdb
+V:\Development\PS2 ISO Helper\GUI\bin\Release\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Release\DiscUtils.dll
+V:\Development\PS2 ISO Helper\GUI\bin\Release\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\GUI\bin\Release\DiscUtils.pdb
+V:\Development\PS2 ISO Helper\GUI\bin\Release\DiscUtils.xml
+V:\Development\PS2 ISO Helper\GUI\obj\Release\GUI.csprojAssemblyReference.cache
+V:\Development\PS2 ISO Helper\GUI\obj\Release\MainWindow.g.cs
+V:\Development\PS2 ISO Helper\GUI\obj\Release\App.g.cs
+V:\Development\PS2 ISO Helper\GUI\obj\Release\PS2 Image Reader_MarkupCompile.cache
+V:\Development\PS2 ISO Helper\GUI\obj\Release\PS2 Image Reader_MarkupCompile.lref
+V:\Development\PS2 ISO Helper\GUI\obj\Release\MainWindow.baml
+V:\Development\PS2 ISO Helper\GUI\obj\Release\PS2 Image Reader.g.resources
+V:\Development\PS2 ISO Helper\GUI\obj\Release\PS2_Image_Reader.Properties.Resources.resources
+V:\Development\PS2 ISO Helper\GUI\obj\Release\GUI.csproj.GenerateResource.cache
+V:\Development\PS2 ISO Helper\GUI\obj\Release\GUI.csproj.CoreCompileInputs.cache
+V:\Development\PS2 ISO Helper\GUI\obj\Release\GUI.csproj.CopyComplete
+V:\Development\PS2 ISO Helper\GUI\obj\Release\PS2 Image Reader.exe
+V:\Development\PS2 ISO Helper\GUI\obj\Release\PS2 Image Reader.pdb
