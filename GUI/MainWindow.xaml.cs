@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Threading;
 using System.Windows;
 
@@ -6,6 +7,8 @@ namespace PS2_Image_Reader
 {
     public partial class MainWindow : Window
     {
+        private string LogFilePath => Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), "Log.txt");
+
         public MainWindow()
         {
             InitializeComponent();
@@ -56,14 +59,17 @@ namespace PS2_Image_Reader
             {
                 Thread.CurrentThread.IsBackground = true;
 
+                File.Create(LogFilePath);
 
                 var identifier = new PS2_Codex.Identifier();
                 identifier.Error += Identifier_Error;
                 identifier.Update += Identifier_Update;
                 identifier.ActionStart += Identifier_ActionStart;
                 identifier.ActionStop += Identifier_ActionStop;
+                identifier.FileStart += Identifier_FileStart;
                 identifier.FileOK += Identifier_FileOK;
                 identifier.FileNOK += Identifier_FileNOK;
+                identifier.FileRename += Identifier_FileRename;
 
                 if (opl)
                 {
@@ -75,7 +81,17 @@ namespace PS2_Image_Reader
                 identifier.Initialize(source, targetNOK, targetOK, true);
                 identifier.Execute();
 
-            }).Start();
+            }).Start();            
+        }
+
+        private void Identifier_FileRename(string oldname, string newname)
+        {
+            AddOutput(string.Format("File Renamed from '{0}' to '{1}'", oldname, newname));
+        }
+
+        private void Identifier_FileStart(string filename)
+        {
+            AddOutput("File Started: " + filename);
         }
 
         private void Identifier_FileNOK(string filename)
@@ -126,8 +142,12 @@ namespace PS2_Image_Reader
 
         private void AddOutput(string line)
         {
+            string output = DateTime.Now.ToString("HH:mm:ss") + "    " + line;
+
+            File.AppendAllText(LogFilePath, Environment.NewLine + output);
+
             this.Dispatcher.Invoke(() => { 
-                Output_Textbox.Text = DateTime.Now.ToString("HH:mm:ss") + "    " + line + Environment.NewLine + Output_Textbox.Text; 
+                Output_Textbox.Text = output + Environment.NewLine + Output_Textbox.Text; 
             });
         }
 

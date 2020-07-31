@@ -30,6 +30,7 @@ namespace PS2_Codex
 
         public delegate void FileStarted(string filename);
         public delegate void FileSuccess(string filename);
+        public delegate void FileRenamed(string oldname, string newname);
         public delegate void FileFailed(string filename);
         public delegate void FileStopped(string filename);
 
@@ -42,6 +43,7 @@ namespace PS2_Codex
 
         public event FileStarted FileStart;        
         public event FileSuccess FileOK;
+        public event FileRenamed FileRename;
         public event FileFailed FileNOK;
         public event FileStopped FileStop;
 
@@ -370,24 +372,31 @@ namespace PS2_Codex
                 if (string.IsNullOrEmpty(exception))
                 {
                     string newPath = Path.Combine(TargetSuccessDirectory, GetNewFilename(mapping, id, isoFile.Name));
-                    if (File.Exists(newPath))
-                    {
-                        Error?.Invoke("Duplicate File");
-                        FileNOK?.Invoke(isoFile.Name);
-                        File.Move(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
-                    }
-                    else
+                    if (isoFile.FullName == newPath)
                     {
                         FileOK?.Invoke(isoFile.Name);
-                        File.Move(isoFile.FullName, newPath);
                     }
-                    
+                    else
+                    {                        
+                        if (File.Exists(newPath))
+                        {
+                            Error?.Invoke("Duplicate File");
+                            FileNOK?.Invoke(isoFile.Name);
+                            MoveFailedFile(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
+                        }
+                        else
+                        {
+                            FileRename?.Invoke(isoFile.Name, Path.GetFileName(newPath));
+                            FileOK?.Invoke(isoFile.Name);
+                            File.Move(isoFile.FullName, newPath);
+                        }
+                    }
                 }
                 else
                 {
                     Error?.Invoke(exception);
                     FileNOK?.Invoke(isoFile.Name);
-                    File.Move(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
+                    MoveFailedFile(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
                 }
 
                 FileStop?.Invoke(isoFile.Name);
@@ -398,6 +407,26 @@ namespace PS2_Codex
             ActionStop?.Invoke(Actions.Identify);
 
             return true;
+        }
+
+        private void MoveFailedFile(string source, string target)
+        {
+            if (File.Exists(target))
+            {
+                string dir = Path.GetDirectoryName(target);
+                string name = Path.GetFileNameWithoutExtension(target);
+                string ext = Path.GetExtension(target);
+
+                int counter = 1;
+                while (File.Exists(Path.Combine(dir, Path.ChangeExtension(name + counter.ToString(), ext))))
+                    counter++;
+
+                File.Move(source, Path.Combine(dir, Path.ChangeExtension(name + counter.ToString(), ext)));
+            }
+            else
+            {
+                File.Move(source, target);
+            }
         }
 
         private string IdentifyIso(FileInfo isoFile, out string id)
