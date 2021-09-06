@@ -1,0 +1,32 @@
+V:\Development\PS2 ISO Helper\OPL\bin\Release\bchunk.exe
+V:\Development\PS2 ISO Helper\OPL\bin\Release\GameMapping.csv
+V:\Development\PS2 ISO Helper\OPL\bin\Release\OPL.exe.config
+V:\Development\PS2 ISO Helper\OPL\bin\Release\OPL.exe
+V:\Development\PS2 ISO Helper\OPL\bin\Release\OPL.pdb
+V:\Development\PS2 ISO Helper\OPL\bin\Release\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\SharpCompress.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\DiscUtils.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Memory.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Buffers.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Numerics.Vectors.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Release\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\OPL\bin\Release\DiscUtils.pdb
+V:\Development\PS2 ISO Helper\OPL\bin\Release\DiscUtils.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Memory.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Buffers.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Numerics.Vectors.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.csprojAssemblyReference.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Release\Helper.g.cs
+V:\Development\PS2 ISO Helper\OPL\obj\Release\App.g.cs
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL_MarkupCompile.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL_MarkupCompile.lref
+V:\Development\PS2 ISO Helper\OPL\obj\Release\Helper.baml
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.g.resources
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.Properties.Resources.resources
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.csproj.GenerateResource.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.csproj.CoreCompileInputs.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.csproj.CopyComplete
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.exe
+V:\Development\PS2 ISO Helper\OPL\obj\Release\OPL.pdb

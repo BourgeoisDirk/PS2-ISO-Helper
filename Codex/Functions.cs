@@ -67,6 +67,9 @@ namespace PS2_Codex
 
         public static string LimitToAllowedCharacters(string name)
         {
+            if (name.Contains(", The"))
+                name = "The " + name.Replace(", The", "");
+
             string allowedChars = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_()[]";
             Regex regex = new Regex(@"^[ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\-_()[\]]+$");
             if (!regex.IsMatch(name))

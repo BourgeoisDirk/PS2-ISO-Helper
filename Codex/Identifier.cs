@@ -504,9 +504,6 @@ namespace PS2_Codex
             }
             else
             {
-                if (name.Contains(", The"))
-                    name = "The " + name.Replace(", The", "");
-
                 if (LimitCharacters)
                     name = Functions.LimitToAllowedCharacters(name);
 
@@ -516,7 +513,6 @@ namespace PS2_Codex
                 if (ShortenTo32Characters)
                     name = Functions.ForceShortenNameTo32Characters(name);
 
-                name = name.Replace("  ", " ");
                 if (mapping.ContainsKey(gameId))
                     mapping[gameId][1] = name; 
                 else

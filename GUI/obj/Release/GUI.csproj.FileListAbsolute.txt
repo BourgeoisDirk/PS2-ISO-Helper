@@ -29,3 +29,7 @@ V:\Development\PS2 ISO Helper\GUI\bin\Release\System.Memory.xml
 V:\Development\PS2 ISO Helper\GUI\bin\Release\System.Buffers.xml
 V:\Development\PS2 ISO Helper\GUI\bin\Release\System.Numerics.Vectors.xml
 V:\Development\PS2 ISO Helper\GUI\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+V:\Development\PS2 ISO Helper\GUI\bin\Release\GameMapping.csv
+V:\Development\PS2 ISO Helper\GUI\bin\Release\OPL.exe
+V:\Development\PS2 ISO Helper\GUI\bin\Release\OPL.pdb
+V:\Development\PS2 ISO Helper\GUI\bin\Release\OPL.exe.config
