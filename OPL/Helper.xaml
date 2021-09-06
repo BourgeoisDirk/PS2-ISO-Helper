@@ -1,0 +1,38 @@
+﻿<Window x:Class="OPL.Helper"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OPL"
+        mc:Ignorable="d"
+        Title="OPL Helper" 
+        Height="505.03" MinHeight="505.03" 
+        Width="920.71" MinWidth="920.71" 
+        Closing="Window_Closing" 
+        Loaded="Window_Loaded">
+    <Grid>
+        <TextBox x:Name="SourceDirectory_Textbox" Height="23" Margin="147,11,131,0" TextWrapping="Wrap" VerticalAlignment="Top" />
+        <Label Content="Source Files Directory" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button x:Name="Scan_Button" Content="Scan" Margin="0,12,10,0" VerticalAlignment="Top" Height="22" Click="Scan_Button_Click" HorizontalAlignment="Right" Width="116"/>
+
+        <DataGrid x:Name="DataGrid" Margin="10,39,131,93" 
+                  CanUserAddRows="False" CanUserDeleteRows="False" CanUserReorderColumns="False" AutoGenerateColumns="False" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                  SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Game ID" Width="75" IsReadOnly="True" Binding="{Binding Path=GameID, Mode=OneWay}" />
+                <DataGridTextColumn Header="Original Name" Width="*" IsReadOnly="True" Binding="{Binding Path=Name, Mode=OneWay}" />
+                <DataGridTextColumn Header="New Name" Width="*" Binding="{Binding Path=ReName, Mode=TwoWay}" />
+                <DataGridCheckBoxColumn Header="Invalid" Binding="{Binding Path=Invalid, Mode=OneWay}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="ResetToOriginalName_Button" Content="Reset Name" Margin="0,66,10,0" VerticalAlignment="Top" Height="22" Click="ResetToOriginalName_Button_Click" HorizontalAlignment="Right" Width="116"/>
+        <Button x:Name="LimitToAllowedChars_Button" Content="Trim Characters" Margin="0,102,10,0" VerticalAlignment="Top" Height="22" Click="LimitToAllowedChars_Button_Click" HorizontalAlignment="Right" Width="116"/>
+        <Button x:Name="RemoveBracketContent_Button" Content="Remove Brackets" Margin="0,129,10,0" VerticalAlignment="Top" Height="22" Click="RemoveBracketContent_Button_Click" HorizontalAlignment="Right" Width="116"/>
+        <Button x:Name="Force32Chars_Button" Content="Force 32 Chars" Margin="0,156,10,0" VerticalAlignment="Top" Height="22" Click="Force32Chars_Button_Click" HorizontalAlignment="Right" Width="116"/>
+
+        <Button x:Name="Apply_Button" Content="Apply" Margin="0,0,10,93" Click="Apply_Button_Click" HorizontalAlignment="Right" Width="116" Height="22" VerticalAlignment="Bottom" />
+
+        <TextBox x:Name="Error_TextBox" Margin="10,0,10,10" TextWrapping="WrapWithOverflow" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Foreground="Red" Height="78" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

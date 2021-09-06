@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PS2_Image_Reader"
         mc:Ignorable="d"
-        Title="PS2 ISO Helper" Height="585.832" Width="802.849">
+        Title="PS2 ISO Helper" 
+        Height="605.826" MinHeight="605.826" 
+        Width="802.849" MinWidth="802.849">
     <Grid>
         <TextBox x:Name="SourceDirectory_Textbox" Height="23" Margin="228,11,13,0" TextWrapping="Wrap" VerticalAlignment="Top" LostFocus="SourceDirectory_Textbox_LostFocus"/>
         <Button x:Name="Go_Button" Content="Go" Margin="707,81,13,0" VerticalAlignment="Top" Click="Go_Button_Click"/>
@@ -16,9 +18,11 @@
         <CheckBox x:Name="LimitCharacters_CheckBox" Content="Limit Characters to &quot; abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_()[]&quot;" HorizontalAlignment="Left" Margin="34,102,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <CheckBox x:Name="RemoveBracketContent_CheckBox" Content="Remove Brackets &quot;(&quot; and &quot;)&quot; with Content" HorizontalAlignment="Left" Margin="34,117,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <CheckBox x:Name="ShortenTo32Characters_CheckBox" Content="Shorten the Game Name to 32 Characters" HorizontalAlignment="Left" Margin="34,132,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="RunOplHelper_CheckBox" Content="Run OPL Helper when Done" HorizontalAlignment="Left" Margin="13,152,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <Button x:Name="OPL_Button" Content="OPL Helper" Margin="707,151,13,0" VerticalAlignment="Top" Click="OPL_Button_Click" />
 
-        <TextBlock x:Name="Status_TextBlock" HorizontalAlignment="Left" Margin="10,183,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="208" Height="20" FontSize="10"/>
-        <ProgressBar x:Name="StatusBar" Height="20" Margin="223,183,13,0" VerticalAlignment="Top" />
+        <TextBlock x:Name="Status_TextBlock" HorizontalAlignment="Left" Margin="10,183,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="261" Height="20" FontSize="10"/>
+        <ProgressBar x:Name="StatusBar" Height="20" Margin="276,183,13,0" VerticalAlignment="Top" />
         <TextBox x:Name="Output_Textbox" Margin="10,208,13,11" TextWrapping="NoWrap" IsReadOnly="True"/>
     </Grid>
 </Window>

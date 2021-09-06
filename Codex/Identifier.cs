@@ -3,15 +3,12 @@ using SharpCompress.Archives.Rar;
 using SharpCompress.Archives.SevenZip;
 using SharpCompress.Archives.Zip;
 using SharpCompress.Common;
-using SharpCompress.Readers;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace PS2_Codex
 {
@@ -22,21 +19,30 @@ namespace PS2_Codex
             None = 0,
             Unzip = 1,
             Convert = 2,
-            Identify = 3
+            Identify = 3,
+            LoadMapping = 4,
+            SaveMapping = 5
         }
 
+
+        public delegate void ProcessStarted();
+        public delegate void ProcessStopped(Dictionary<string, List<string>> gamemapping, TimeSpan duration);
+
         public delegate void ActionStarted(Actions action, int fileCount);
-        public delegate void ActionStopped(Actions action);
+        public delegate void ActionStopped(Actions action, TimeSpan duration);
 
-        public delegate void FileStarted(string filename);
-        public delegate void FileSuccess(string filename);
+        public delegate void FileStarted(string filename, long bytesize);
+        public delegate void FileSuccess(string filename, TimeSpan duration);
+        public delegate void FileFailed(string filename, TimeSpan duration);
         public delegate void FileRenamed(string oldname, string newname);
-        public delegate void FileFailed(string filename);
-        public delegate void FileStopped(string filename);
+        public delegate void FileStopped(string filename, TimeSpan duration);
 
-        public delegate void Progress(int fileNumber, int fileCount, string fileName);
+        public delegate void Progress(Actions action, int fileNumber, int fileCount, string fileName);
         public delegate void ErrorOccurred(string exception);
 
+
+        public event ProcessStarted ProcessStart;
+        public event ProcessStopped ProcessStop;
 
         public event ActionStarted ActionStart;
         public event ActionStopped ActionStop;
@@ -155,12 +161,17 @@ namespace PS2_Codex
                 return false;
             }
 
+            var processstarted = DateTime.Now;
+            ProcessStart?.Invoke();
+
             ExtractZipFiles();
 
             ConvertBinFiles();
 
             if (!IdentifyIsoFiles())
                 return false;
+             
+            ProcessStop?.Invoke(GameMapping, DateTime.Now - processstarted);
 
             return true;
         }
@@ -178,30 +189,32 @@ namespace PS2_Codex
 
             int counter = 0;
             var zipList = new DirectoryInfo(SourceDirectory).GetFiles("*.*", SearchOption.TopDirectoryOnly).Where(x => "*.7z,*.zip,*.rar".Contains(x.Extension.ToLower()));
-            ActionStart?.Invoke(Actions.Unzip, zipList.Count());
+            var actionstarted = DateTime.Now;
+            ActionStart?.Invoke(Actions.Unzip, zipList.Count());            
 
             foreach (var zipFile in zipList)
             {
-                counter++;                
+                counter++;
 
-                FileStart?.Invoke(zipFile.Name);
-                Update?.Invoke(counter, zipList.Count(), zipFile.Name);
+                var filestarted = DateTime.Now;
+                FileStart?.Invoke(zipFile.Name, zipFile.Length);
+                Update?.Invoke(Actions.Unzip, counter, zipList.Count(), zipFile.Name);
 
                 if (ExtractZip(zipFile.FullName))
                 {
-                    FileOK?.Invoke(zipFile.Name);
+                    FileOK?.Invoke(zipFile.Name, DateTime.Now - filestarted);
                     File.Delete(zipFile.FullName);
                 }
                 else
                 {
-                    FileNOK?.Invoke(zipFile.Name);
+                    FileNOK?.Invoke(zipFile.Name, DateTime.Now - filestarted);
                     File.Move(zipFile.FullName, Path.Combine(TargetFailureDirectory, zipFile.Name));
                 }
 
-                FileStop?.Invoke(zipFile.Name);
+                FileStop?.Invoke(zipFile.Name, DateTime.Now - filestarted);
             }
 
-            ActionStop?.Invoke(Actions.Unzip);
+            ActionStop?.Invoke(Actions.Unzip, DateTime.Now - actionstarted);
         }
 
         private bool ExtractZip(string path)
@@ -277,29 +290,31 @@ namespace PS2_Codex
 
             int counter = 0;
             var binList = new DirectoryInfo(SourceDirectory).GetFiles("*.bin", SearchOption.TopDirectoryOnly);
+            var actionstarted = DateTime.Now;
             ActionStart?.Invoke(Actions.Convert, binList.Count());
 
             foreach (var binFile in binList)
             {
                 counter++;
 
-                FileStart?.Invoke(binFile.Name);
-                Update?.Invoke(counter, binList.Count(), binFile.Name);
+                var filestarted = DateTime.Now;
+                FileStart?.Invoke(binFile.Name, binFile.Length);
+                Update?.Invoke(Actions.Convert, counter, binList.Count(), binFile.Name);
 
                 if (ConvertBinToIso(binFile.FullName))
-                    FileOK?.Invoke(binFile.Name);
+                    FileOK?.Invoke(binFile.Name, DateTime.Now - filestarted);
                 else
                 {
-                    FileNOK?.Invoke(binFile.Name);
+                    FileNOK?.Invoke(binFile.Name, DateTime.Now - filestarted);
                     File.Move(binFile.FullName, Path.Combine(TargetFailureDirectory, binFile.Name));
                     if (File.Exists(Path.ChangeExtension(binFile.FullName, ".cue")))
                         File.Move(Path.ChangeExtension(binFile.FullName, ".cue"), Path.Combine(TargetFailureDirectory, Path.ChangeExtension(binFile.Name, ".cue")));
                 }
 
-                FileStop?.Invoke(binFile.Name);
+                FileStop?.Invoke(binFile.Name, DateTime.Now - filestarted);
             }
 
-            ActionStop?.Invoke(Actions.Convert);
+            ActionStop?.Invoke(Actions.Convert, DateTime.Now - actionstarted);
         }
 
         private bool ConvertBinToIso(string path)
@@ -341,6 +356,8 @@ namespace PS2_Codex
 
         #region "Identification"
 
+        private Dictionary<string, List<string>> GameMapping;
+
         private bool IdentifyIsoFiles()
         {
             if (!Initialized)
@@ -351,6 +368,7 @@ namespace PS2_Codex
 
             int counter = 0;
             var isoList = new DirectoryInfo(SourceDirectory).GetFiles("*.iso", SearchOption.TopDirectoryOnly);
+            var actionstarted = DateTime.Now;
             ActionStart?.Invoke(Actions.Identify, isoList.Count());
 
             if (isoList.Count() == 0)
@@ -359,35 +377,36 @@ namespace PS2_Codex
                 return false;
             }
 
-            LoadGameMapping(out Dictionary<string, string> mapping);
+            LoadGameMapping(ref GameMapping);
 
             foreach (var isoFile in isoList)
             {
                 counter++;
 
-                FileStart?.Invoke(isoFile.Name);
-                Update?.Invoke(counter, isoList.Count(), isoFile.Name);
+                var filestarted = DateTime.Now;
+                FileStart?.Invoke(isoFile.Name, isoFile.Length);
+                Update?.Invoke(Actions.Identify, counter, isoList.Count(), isoFile.Name);
 
                 string exception = IdentifyIso(isoFile, out string id);
                 if (string.IsNullOrEmpty(exception))
                 {
-                    string newPath = Path.Combine(TargetSuccessDirectory, GetNewFilename(mapping, id, isoFile.Name));
+                    string newPath = Path.Combine(TargetSuccessDirectory, GetNewFilename(GameMapping, id, isoFile.Name));
                     if (isoFile.FullName == newPath)
                     {
-                        FileOK?.Invoke(isoFile.Name);
+                        FileOK?.Invoke(isoFile.Name, DateTime.Now - filestarted);
                     }
                     else
                     {                        
                         if (File.Exists(newPath))
                         {
                             Error?.Invoke("Duplicate File");
-                            FileNOK?.Invoke(isoFile.Name);
-                            MoveFailedFile(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
+                            FileNOK?.Invoke(isoFile.Name, DateTime.Now - filestarted);
+                            Functions.MoveFailedFile(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
                         }
                         else
                         {
                             FileRename?.Invoke(isoFile.Name, Path.GetFileName(newPath));
-                            FileOK?.Invoke(isoFile.Name);
+                            FileOK?.Invoke(isoFile.Name, DateTime.Now - filestarted);
                             File.Move(isoFile.FullName, newPath);
                         }
                     }
@@ -395,39 +414,19 @@ namespace PS2_Codex
                 else
                 {
                     Error?.Invoke(exception);
-                    FileNOK?.Invoke(isoFile.Name);
-                    MoveFailedFile(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
+                    FileNOK?.Invoke(isoFile.Name, DateTime.Now - filestarted);
+                    Functions.MoveFailedFile(isoFile.FullName, Path.Combine(TargetFailureDirectory, isoFile.Name));
                 }
 
-                FileStop?.Invoke(isoFile.Name);
+                FileStop?.Invoke(isoFile.Name, DateTime.Now - filestarted);
             }
 
-            SaveGameMapping(mapping);
+            SaveGameMapping(GameMapping);
 
-            ActionStop?.Invoke(Actions.Identify);
+            ActionStop?.Invoke(Actions.Identify, DateTime.Now - actionstarted);
 
             return true;
-        }
-
-        private void MoveFailedFile(string source, string target)
-        {
-            if (File.Exists(target))
-            {
-                string dir = Path.GetDirectoryName(target);
-                string name = Path.GetFileNameWithoutExtension(target);
-                string ext = Path.GetExtension(target);
-
-                int counter = 1;
-                while (File.Exists(Path.Combine(dir, Path.ChangeExtension(name + counter.ToString(), ext))))
-                    counter++;
-
-                File.Move(source, Path.Combine(dir, Path.ChangeExtension(name + counter.ToString(), ext)));
-            }
-            else
-            {
-                File.Move(source, target);
-            }
-        }
+        }        
 
         private string IdentifyIso(FileInfo isoFile, out string id)
         {
@@ -465,113 +464,67 @@ namespace PS2_Codex
             return null;
         }
 
-        private bool LoadGameMapping(out Dictionary<string, string> mapping)
+        private bool LoadGameMapping(ref Dictionary<string, List<string>> mapping)
         {
-            mapping = new Dictionary<string, string>();
+            var actionstarted = DateTime.Now;
+            ActionStart?.Invoke(Actions.LoadMapping, 1);
 
-            string gamesListFilepath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), "GameList.txt");
-            if (!File.Exists(gamesListFilepath))
-                return false;
+            bool output = Functions.LoadGameMapping(ref mapping);
 
-            using (StreamReader sr = new StreamReader(gamesListFilepath))
-            {
-                while (!sr.EndOfStream)
-                {
-                    string splitMe = sr.ReadLine();
-                    string[] splits = splitMe.Split(';');
-                    mapping.Add(splits[0], splits[1]);
-                }
-            }
+            ActionStop?.Invoke(Actions.LoadMapping, DateTime.Now - actionstarted);
 
-            return true;
+            return output;
         }
 
-        private void SaveGameMapping(Dictionary<string, string> mapping)
+        public void SaveGameMapping(Dictionary<string, List<string>> mapping)
         {
-            string gamesListFilepath = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location), "GameList.txt");
-            if (File.Exists(gamesListFilepath))
-            {
-                string oldFilePath = Path.Combine(Path.GetDirectoryName(gamesListFilepath), "Old" + Path.GetFileName(gamesListFilepath));
-                if (File.Exists(oldFilePath))
-                    File.Delete(oldFilePath);
+            var actionstarted = DateTime.Now;
+            ActionStart?.Invoke(Actions.SaveMapping, 1);
 
-                File.Move(gamesListFilepath, oldFilePath);
-            }
+            Functions.SaveGameMapping(mapping);
 
-            using (StreamWriter file = new StreamWriter(gamesListFilepath))
-                foreach (var pair in mapping)
-                    file.WriteLine(string.Format("{0};{1}", pair.Key, pair.Value));
+            ActionStop?.Invoke(Actions.SaveMapping, DateTime.Now - actionstarted);
         }
 
-        private string GetNewFilename(Dictionary<string, string> mapping, string gameId, string fileName)
+        private string GetNewFilename(Dictionary<string, List<string>> mapping, string gameId, string fileName)
         {            
             string name = Path.ChangeExtension(fileName, null);
             string oldName = name;
 
             if (name.Length >= 11) { 
                 string currentId = name.Substring(0, 11);
-                if ((currentId.IndexOf('_') == 4) || (currentId.IndexOf('.') == 8) || (currentId.LastIndexOf('.') == 11))
+                if ((currentId.IndexOf('_') == 4) && (currentId.IndexOf('.') == 8) && (currentId.LastIndexOf('.') == 11))
                     name = name.Substring(12);
             }
 
-            if (mapping.ContainsKey(gameId))
-                name = mapping[gameId].Split(';')[0];
+            if (mapping.ContainsKey(gameId)) { 
+                string mapped = mapping[gameId][1];
+                if (!string.IsNullOrEmpty(mapped))
+                    name = mapped;
+            }
             else
             {
                 if (name.Contains(", The"))
                     name = "The " + name.Replace(", The", "");
 
-                if (LimitCharacters) { 
-                    string allowedChars = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_()[]";
-                    Regex regex = new Regex(@"^[ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\-_()[\]]+$");
-                    if (!regex.IsMatch(name))
-                        name = string.Concat(name.Where(x => allowedChars.Contains(x)));
-                }
+                if (LimitCharacters)
+                    name = Functions.LimitToAllowedCharacters(name);
 
                 if (RemoveBracketContent)
-                {
-                    for (int i = 1; i < 4; i++)
-                        if (name.Contains(string.Format("(Disc {0})", i)))
-                            name = name.Replace(string.Format("(Disc {0})", i), string.Format("- Disc {0}", i));
-                    
-                    name = Regex.Replace(name, @" \((.*?)\)", "");  // Remove everything between ( and ), including the Brackets and leading Space
-                }
+                    name = Functions.RemoveBracketContentFromName(name);
 
-                if (ShortenTo32Characters) { 
-                    int counter = 0;
-                    while (name.Length > 32)
-                    {
-                        counter++;
-
-                        int start = 1;
-                        string[] parts = name.Split('-');
-                        if ((parts.Length == 1) || (counter > 1))
-                            start = 0;
-
-                        name = "";
-                        if (start > 0)
-                            name = parts[0];
-
-                        for (int i = start; i < parts.Length; i++) { 
-                            parts[i] = string.Concat(parts[i].Where(x => "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".Contains(x)));
-
-                            if (!string.IsNullOrEmpty(name))
-                                name = name + " - ";
-
-                            name = name + parts[i];
-                        }
-
-                        if (counter == 5)
-                            break;
-                    }
-                }
+                if (ShortenTo32Characters)
+                    name = Functions.ForceShortenNameTo32Characters(name);
 
                 name = name.Replace("  ", " ");
-                mapping.Add(gameId, string.Format("{0};{1}", name, oldName));
+                if (mapping.ContainsKey(gameId))
+                    mapping[gameId][1] = name; 
+                else
+                    mapping.Add(gameId, new List<string>() { oldName, name });
             }
 
-            return string.Format("{0}.{1}", gameId, Path.ChangeExtension(name, Path.GetExtension(fileName)));
-        }        
+            return string.Format("{0}.{1}{2}", gameId, name, Path.GetExtension(fileName));
+        }
 
         #endregion
 

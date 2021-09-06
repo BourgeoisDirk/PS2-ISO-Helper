@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PS2-Logo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -99,6 +102,13 @@
       <Project>{098f9a19-f458-4d1f-9759-68efd3249a8b}</Project>
       <Name>Codex</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OPL\OPL.csproj">
+      <Project>{a9a071a8-c1b9-4981-894b-bc5cb82a9f5f}</Project>
+      <Name>OPL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PS2-Logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

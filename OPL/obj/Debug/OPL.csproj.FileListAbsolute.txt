@@ -1,0 +1,32 @@
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.csprojAssemblyReference.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\Helper.g.cs
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\App.g.cs
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL_MarkupCompile.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL_MarkupCompile.lref
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\OPL.exe.config
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\OPL.exe
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\OPL.pdb
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\Helper.baml
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.g.resources
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.Properties.Resources.resources
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.csproj.GenerateResource.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.csproj.CoreCompileInputs.cache
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.exe
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.pdb
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\bchunk.exe
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\PS2 Codex.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\SharpCompress.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\DiscUtils.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Memory.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Buffers.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Numerics.Vectors.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\PS2 Codex.pdb
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\DiscUtils.pdb
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\DiscUtils.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Memory.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Buffers.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Numerics.Vectors.xml
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+V:\Development\PS2 ISO Helper\OPL\obj\Debug\OPL.csproj.CopyComplete
+V:\Development\PS2 ISO Helper\OPL\bin\Debug\GameMapping.csv

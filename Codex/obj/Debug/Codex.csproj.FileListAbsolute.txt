@@ -36,3 +36,4 @@ V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Buffers.xml
 V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Memory.xml
 V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Numerics.Vectors.xml
 V:\Development\PS2 ISO Helper\Codex\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+V:\Development\PS2 ISO Helper\Codex\bin\Debug\GameMapping.csv

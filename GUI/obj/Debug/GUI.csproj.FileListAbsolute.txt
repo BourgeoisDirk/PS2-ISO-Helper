@@ -52,3 +52,7 @@ V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Memory.xml
 V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Buffers.xml
 V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Numerics.Vectors.xml
 V:\Development\PS2 ISO Helper\GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\OPL.exe
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\OPL.pdb
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\OPL.exe.config
+V:\Development\PS2 ISO Helper\GUI\bin\Debug\GameMapping.csv
