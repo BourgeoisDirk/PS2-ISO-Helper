@@ -11,6 +11,7 @@ namespace OPL
 {
     public class Record : INotifyPropertyChanged
     {
+        private Dictionary<string, List<string>> GameMapping;
         public event PropertyChangedEventHandler PropertyChanged;
 
         public void OnPropertyChanged(String propertyName)
@@ -21,10 +22,13 @@ namespace OPL
 
         private bool Initializing;
 
-        public Record(string filepath)
+        public Record(Dictionary<string, List<string>> gamemapping, string filepath)
         {
             Initializing = true;
+
+            GameMapping = gamemapping;
             Filepath = filepath;
+
             Initializing = false;
         }
 
@@ -69,14 +73,37 @@ namespace OPL
             get => _GameID;
             private set
             {
-                if ((value.IndexOf('_') == 4) || (value.IndexOf('.') == 8))
+                if ((value.IndexOf('_') == 4) && (value.IndexOf('.') == 8)) {
+                    if (GameMapping.ContainsKey(value))
+                        RegisteredName = GameMapping[value][0];
+
                     _GameID = value;
+                }
                 else
                 {
                     _GameID = String.Empty;
                     AddError("Missing a valid GameID like \"XXXX_00.00\"");
                 }
                 OnPropertyChanged("GameID");
+            }
+        }
+
+        private string _RegisteredName;
+        public string RegisteredName
+        {
+            get => _RegisteredName;
+            set
+            {
+                if (Initializing)
+                {
+                    _RegisteredName = value;
+                    OnPropertyChanged("RegisteredName");
+                }
+                else if (GameMapping.ContainsKey(GameID)) { 
+                    GameMapping[GameID][0] = value;
+                    _RegisteredName = value;
+                    OnPropertyChanged("RegisteredName");
+                }
             }
         }
 
@@ -108,10 +135,22 @@ namespace OPL
             set
             {
                 _ReName = value;
+                ReNameLength = value.Length;
                 ValidateName(value);
                 OnPropertyChanged("ReName");
             }
-        }        
+        }
+
+        private int _ReNameLength;
+        public int ReNameLength
+        {
+            get => _ReNameLength;
+            private set
+            {
+                _ReNameLength = value;
+                OnPropertyChanged("ReNameLength");
+            }
+        }
 
         private string _ErrorContent;
         public string ErrorContent {

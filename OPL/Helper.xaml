@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:OPL"
         mc:Ignorable="d"
         Title="OPL Helper" 
-        Height="505.03" MinHeight="505.03" 
-        Width="920.71" MinWidth="920.71" 
+        Height="551.847" MinHeight="551.847" 
+        Width="972.508" MinWidth="972.508" 
         Closing="Window_Closing" 
         Loaded="Window_Loaded">
     <Grid>
@@ -20,9 +20,11 @@
                   SelectionChanged="DataGrid_SelectionChanged">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Game ID" Width="75" IsReadOnly="True" Binding="{Binding Path=GameID, Mode=OneWay}" />
-                <DataGridTextColumn Header="Original Name" Width="*" IsReadOnly="True" Binding="{Binding Path=Name, Mode=OneWay}" />
-                <DataGridTextColumn Header="New Name" Width="*" Binding="{Binding Path=ReName, Mode=TwoWay}" />
-                <DataGridCheckBoxColumn Header="Invalid" Binding="{Binding Path=Invalid, Mode=OneWay}" />
+                <DataGridTextColumn x:Name="RegisteredName_Column" Header="Registered Name" Width="*" Binding="{Binding Path=RegisteredName, Mode=TwoWay}" />
+                <DataGridTextColumn Header="File Name" Width="*" IsReadOnly="True" Binding="{Binding Path=Name, Mode=OneWay}" />
+                <DataGridTextColumn Header="OPL Name" Width="*" Binding="{Binding Path=ReName, Mode=TwoWay}" />
+                <DataGridTextColumn Header="Length" Width="50" IsReadOnly="True" Binding="{Binding Path=ReNameLength, Mode=OneWay}" />
+                <DataGridCheckBoxColumn Header="Invalid" Width="50" Binding="{Binding Path=Invalid, Mode=OneWay}" />
             </DataGrid.Columns>
         </DataGrid>
 

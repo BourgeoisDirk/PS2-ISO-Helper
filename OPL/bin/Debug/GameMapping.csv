@@ -108,7 +108,7 @@ SLES_532.97;7 SINS;
 SLES_533.64;7 SINS;
 SLES_550.69;7 Wonders of the Ancient World;
 SLUS_216.93;7 Wonders of the Ancient World;
-SLES_517.16;A TRAIN 6;
+SLES_517.16;A TRAIN 6;A-Train 6
 SLPS_258.29;A.C.E.: Another Century's Episode 2 (Special Vocal Version);
 SLES_546.04;¡Qué Pasa Neng! El Videojuego;
 SLPS_200.06;A6: A Ressha de Ikou 6;
@@ -217,7 +217,7 @@ SLPM_661.75;Akumajo Dracula - Yami no Juin;
 SLPM_666.68;Akumajo Dracula - Yami no Juin [Konami the Best];
 SLES_549.58;Alan Hansen's Sports Challenge;
 SLES_520.63;Alarm for Cobra 11;
-SLES_533.60;Alarm for Cobra 11 Vol. 2: Hot Pursuit;
+SLES_533.60;Alarm for Cobra 11 Vol. 2: Hot Pursuit;Alarm for Cobra 11 Vol 2 - HP
 SLES_529.20;Alarm for Cobra 11: Vol. II;
 SLES_504.29;Alex Ferguson Player Manager 2001;
 SLUS_213.21;Alfa Romeo Racing Italiano;
@@ -257,7 +257,7 @@ SCPS_510.06;ALPINE RACER 3;
 SLPS_201.81;ALPINE RACER 3;
 SLES_543.70;Alpine Ski Racing 2007;
 SLES_533.62;Alpine Skiing  2005;
-SLES_538.67;Alpine Skiing  2006 featuring Bode Miller;
+SLES_538.67;Alpine Skiing  2006 featuring Bode Miller;Alpine Skiing 2006
 SLES_530.41;Alpine Skiing 2005;
 SLES_516.70;Alter Echo;
 SLES_516.71;Alter Echo;
@@ -455,7 +455,7 @@ SLPM_652.29;Army Men - Air Attack 2;
 SLUS_200.04;Army Men - Air Attack 2;
 SLES_501.91;Army Men - Green Rogue;
 SLUS_200.87;Army Men - Green Rogue;
-SLES_539.96;Army Men - Major Malfunction;
+SLES_539.96;Army Men - Major Malfunction;Army Men - Major Malfunction
 SLES_504.34;Army Men - Real Time Strategy;
 SLES_507.06;Army Men - Real Time Strategy;
 SLUS_202.06;Army Men - RTS;
@@ -463,11 +463,11 @@ SLES_501.92;Army Men - Sarge's Heroes 2;
 SLUS_201.32;Army Men - Sarge's Heroes 2;
 SLES_525.87;Army Men - Sarge's War;
 SLUS_218.31;Army Men: Soldiers of Misfortune;
-SLES_547.90;Art of Fighting Anthology;
+SLES_547.90;Art of Fighting Anthology;Art of Fighting Anthology
 SLUS_214.87;Art of Fighting Anthology;
 SLUS_213.05;Arthur and the Invisibles;
-SLES_544.20;Arthus & The Minimoys;
-SLES_551.26;Artlist Collection - The Dog Island;
+SLES_544.20;Arthus & The Minimoys;Arthur and the Minimoys
+SLES_551.26;Artlist Collection - The Dog Island;Artlist Collection - Dog Island
 SLPM_654.41;ASHITA NO JOE - MASSHIRO NI MOE TSUKIRO!;
 SLPM_656.25;ASHITA NO JOE - MASSHIRO NI MOE TSUKIRO! [KONAMI THE BEST];
 SLPS_200.81;ASHITA NO JOE - TOUCHI TYPING NAMIDA HASHI;
@@ -475,11 +475,11 @@ SLPS_200.80;ASHITA NO JOE - TOUCHI TYPING NAMIDA HASHI [KEYBOARD SET];
 SLPM_651.43;ASHITA NO JOE 2 - THE ANIME SUPER REMIX;
 SLPM_664.57;Asobi ni Iku Yo!;
 SLPM_664.56;Asobi ni Iku Yo! (Limited Edition);
-SLES_532.33;Assault Suits Valken;
+SLES_532.33;Assault Suits Valken;Assault Suits Valken
 SLKA_150.23;Assault Suits Walken;
 SLPM_625.01;Assault Suits Walken Zero;
 SLES_518.38;ASTERIX & OBELIX XXL;
-SLES_537.25;ASTERIX & OBELIX XXL 2 - MISSION LAS VEGUM;
+SLES_537.25;ASTERIX & OBELIX XXL 2 - MISSION LAS VEGUM;Asterix Obelix XXL 2
 SLES_530.60;Asterix & Obelix XXL 2: Mission: Las Vegum;
 SLUS_208.66;Asterix & Obelix: Kick Buttix;
 SLES_548.86;Asterix at the Olympic Games;
@@ -616,7 +616,7 @@ SLUS_201.36;BARBARIAN;
 SLES_553.71;Barbie - Horse Adventure : Riding Camps;
 SLES_550.15;Barbie as The Island Princess;
 SLUS_216.84;Barbie as The Island Princess;
-SLES_518.45;Barbie Horse Adventure : Wild Horse Rescue;
+SLES_518.45;Barbie Horse Adventure : Wild Horse Rescue;Barbie Horse Adventures - WHR
 SLUS_218.06;Barbie Horse Adventures - Riding Camp;
 SLUS_206.64;Barbie Horse Adventures - Wild Horse Rescue;
 SLES_545.66;Barbie in The 12 Dancing Princesses;
@@ -705,7 +705,7 @@ SLUS_219.21;Ben 10: Alien Force: Vilgax Attacks;
 SLES_549.51;Ben 10: Protector of Earth;
 SLES_549.52;Ben 10: Protector of Earth;
 SLUS_216.61;Ben 10: Protector of Earth;
-SLES_513.50;Ben Hur: Blood of Braves;
+SLES_513.50;Ben Hur: Blood of Braves;Ben Hur - Blood of Braves
 SLAJ_250.39;Beni no Umi 2;
 SLPM_656.86;BERSERK - MILLENNIUM FALCON HEN SEIMA SENKI NO SHOU [LIMITED EDITION];
 SLKA_252.13;Berserk: Millennium Falcon: Sennen Teikoku no Taka-hen: Seima Senki no Shou;
@@ -928,7 +928,7 @@ SLES_536.59;Brothers in Arms: Earned in Blood;
 SLUS_213.10;Brothers in Arms: Earned in Blood;
 SLES_545.88;Brunswick Pro Bowling;
 SLUS_215.66;Brunswick Pro Bowling;
-SLES_544.76;Buccaneer;
+SLES_544.76;Buccaneer;Buccaneer
 SLES_518.90;BUFFY THE VAMPIRE SLAYER - CHAOS BLEEDS;
 SLUS_205.66;BUFFY THE VAMPIRE SLAYER - CHAOS BLEEDS;
 SLPM_621.57;Buile Baku;
@@ -1378,12 +1378,12 @@ SLES_524.51;CONAN;
 SLUS_205.49;Conflict - Desert Storm;
 SLPM_654.60;Conflict Delta - Wangan War 1991;
 SLPM_660.00;Conflict Delta II - Gulf War 1991;
-SLES_502.21;Conflict Zone;
+SLES_502.21;Conflict Zone;Conflict Zone
 SLUS_202.40;Conflict Zone;
 SLES_509.02;Conflict: Desert Storm;
 SLES_515.23;Conflict: Desert Storm II;
 SLUS_206.89;Conflict: Desert Storm II: Back to Baghdad;
-SLES_525.73;Conflict: Global Storm;
+SLES_525.73;Conflict: Global Storm;Conflict - Global Storm
 SLUS_211.72;Conflict: Global Storm;
 SLES_526.30;Conflict: Vietnam;
 SLUS_210.45;Conflict: Vietnam;
@@ -1656,7 +1656,7 @@ SCAJ_250.55;Def Jam - Fight for N.Y.;
 SLKA_252.30;Def Jam - Fight for N.Y.;
 SLPM_659.07;Def Jam - Fight for N.Y.;
 SLPM_664.63;Def Jam - Fight for N.Y. (EA Best Hits);
-SLES_525.07;Def Jam - Fight for New York;
+SLES_525.07;Def Jam - Fight for New York;Def Jam - Fight for NY
 SLUS_210.04;Def Jam - Fight for NY;
 SLKA_250.53;Def Jam - Vendetta;
 SLES_514.79;DEF JAM VENDETTA;
@@ -1709,7 +1709,7 @@ SLES_556.25;DESPICABLE ME - THE GAME;
 SLUS_219.33;Despicable Me: The Game;
 SLPM_662.84;DESSERT LOVE - SWEET PLUS;
 SLPM_666.61;DESSERT LOVE - SWEET PLUS [BEST COLLECTION];
-SLES_531.96;Destroy All Humans!;
+SLES_531.96;Destroy All Humans!;Destroy All Humans
 SLES_531.97;Destroy All Humans!;
 SLES_536.41;Destroy All Humans!;
 SLPM_664.30;DESTROY ALL HUMANS!;
@@ -1753,7 +1753,7 @@ SLUS_213.61;Devil May Cry 3 - Dante's Awakening (Special Edition);
 SLPM_661.60;Devil May Cry 3 (Special Edition);
 SLPM_742.42;Devil May Cry 3 (Special Edition)(Playstation 2 The Best);
 SLUS_209.64;Devil May Cry 3: Dante's Awakening;
-SLES_541.86;Devil May Cry 3: Dante's Awakening (Special Edition);
+SLES_541.86;Devil May Cry 3: Dante's Awakening (Special Edition);Devil May Cry 3 - DA
 SLPM_650.23;Devil May Cry: Trial Edition;
 SLPM_662.46;Devil Summoner - Kuzunoha Raidou;
 SLPM_666.34;Devil Summoner - Kuzunoha Raidou (Atlus Best Collection);
@@ -1826,7 +1826,7 @@ SLES_554.15;Disney Think Fast;
 SLUS_218.14;Disney Think Fast;
 SLES_519.07;Disney/Pixar Alla Ricerca di Nemo;
 SCKA_200.68;Disney/Pixar Cars;
-SLES_536.24;Disney/Pixar Cars;
+SLES_536.24;Disney/Pixar Cars;Disney-Pixar Cars
 SLES_540.04;Disney/Pixar Cars;
 SLES_540.07;Disney/Pixar Cars;
 SLES_540.12;Disney/Pixar Cars;
@@ -1990,7 +1990,7 @@ SCPS_150.82;DJ Box;
 SCPS_150.75;DJ Box (Premium Kit);
 SCES_527.62;DJ Decks & FX;
 SCES_527.56;DJ Decks & FX - Claudio Coccoluto Edition;
-SCES_524.05;DJ Decks & FX - House EDITION;
+SCES_524.05;DJ Decks & FX - House EDITION;DJ - Decks FX - House Edition
 SCES_527.64;DJ Decks & FX - Live Session;
 SCES_527.63;DJ Decks & FX Vol.1;
 SLES_555.77;DJ Hero;
@@ -2107,7 +2107,7 @@ SLPM_658.88;Dragon Quest VIII: Sora to Umi to Daichi to Norowareshi Himegimi;
 SLPM_664.81;Dragon Quest VIII: Sora to Umi to Daichi to Norowareshi Himegimi (Ultimate Hits);
 SLES_539.74;Dragon Quest: The Journey of the Cursed King;
 SLES_506.30;Dragon Rage;
-SLES_506.31;Dragon Rage;
+SLES_506.31;Dragon Rage;Dragon Rage
 SLES_506.32;Dragon Rage;
 SLUS_201.95;Dragon Rage;
 SLPS_257.35;Dragon Shadow Spell;
@@ -2205,7 +2205,7 @@ SLUS_201.13;Driving Emotion Type S;
 SLES_500.73;Driving Emotion Type-S;
 SLES_513.03;Drome Racers;
 SLUS_205.77;Drome Racers;
-SCES_504.59;Dropship - United Peace Force;
+SCES_504.59;Dropship - United Peace Force;Dropship - United Peace Force
 SLUS_204.63;Dropship - United Peace Force;
 SLPM_620.01;DRUMMANIA;
 SCES_505.58;DSF Fußball Manager 2002;
@@ -2220,7 +2220,7 @@ SCPS_150.22;Dual Hearts;
 SCPS_550.11;Dual Hearts;
 SLUS_204.75;Dual Hearts;
 SLUS_209.24;Dual Masters;
-SLES_528.84;Duel Masters;
+SLES_528.84;Duel Masters;Duel Masters
 SLPM_658.82;Duel Masters - Birth of Super Dragon;
 SLPM_661.39;DUEL SAVIOR DESTINY;
 SLPS_202.96;Dugout '03 - The Turning Point;
@@ -2380,7 +2380,7 @@ SLUS_202.61;ESPN - NBA 2 Night 2002;
 SLUS_209.20;ESPN - NBA 2k5t;
 SLUS_203.08;ESPN - NFL Prime Time 2002;
 SLUS_209.21;ESPN - NHL 2K5;
-SLUS_200.89;ESPN - Winter X Games - Snowboarding;
+SLUS_200.89;ESPN - Winter X Games - Snowboarding;ESPN Winter X Games Snowboarding
 SLUS_202.37;ESPN - X Games Skateboarding;
 SLUS_207.29;ESPN College Hoops;
 SLUS_209.22;ESPN College Hoops 2K5;
@@ -2525,7 +2525,7 @@ SCES_533.15;EyeToy – Play 3;
 SCES_545.38;EyeToy – Play Astro Zoo;
 SCES_550.38;EyeToy – Play Hero;
 SCES_550.83;EyeToy Play: PomPom Party;
-SCED_528.18;EyeToy: Chat Light;
+SCED_528.18;EyeToy: Chat Light;EyeToy - Chat Light
 SCPS_150.76;EyeToy: Furi Furi Dance Tengoku;
 SCES_518.95;EyeToy: Groove;
 SCKA_200.24;EyeToy: Groove;
@@ -2606,7 +2606,7 @@ SLPM_552.38;FATE/UNLIMITED CODES [BEST PRICE];
 CPCS_010.41;FATE/UNLIMITED CODES [SP BOX];
 SLUS_217.80;Ferrari Challenge;
 SLES_552.94;Ferrari Challenge - Trofeo Pirelli;
-SCES_509.56;Ferrari F355 Challenge;
+SCES_509.56;Ferrari F355 Challenge;Ferrari F355 Challenge
 SLPM_651.78;FERRARI F355 CHALLENGE;
 SLPM_651.85;Ferrari F355 Challenge;
 SLUS_205.58;Ferrari F355 Challenge;
@@ -2733,7 +2733,7 @@ SLUS_211.61;Fight Night Round 2;
 SLES_539.82;Fight Night Round 3;
 SLKA_253.73;FIGHT NIGHT ROUND 3;
 SLUS_213.83;FIGHT NIGHT ROUND 3;
-SLES_513.90;Fightbox;
+SLES_513.90;Fightbox;FightBox
 SLUS_205.24;Fighter Maker 2;
 SLES_534.08;Fighting Angels;
 SLPS_255.45;FIGHTING FOR ONE PIECE;
@@ -2840,7 +2840,7 @@ SLES_529.83;FITNESS FUN;
 SLES_527.53;FLATOUT;
 SLES_527.54;FLATOUT;
 SLUS_209.01;FLATOUT;
-SLES_540.02;FLATOUT 2;
+SLES_540.02;FLATOUT 2;FlatOut 2
 SLES_540.03;FLATOUT 2;
 SLKA_254.01;FLATOUT 2;
 SLUS_212.51;FLATOUT 2;
@@ -2889,7 +2889,7 @@ SLES_526.69;Forgotten Realms: Demon Stone;
 SLES_524.03;Formula Challenge;
 SCES_520.42;Formula One 04;
 SCPS_150.83;Formula One '04;
-SCES_530.33;Formula One 05;
+SCES_530.33;Formula One 05;Formula One 05
 SCPS_150.98;Formula One '05;
 SCES_539.50;Formula One '06;
 SCPS_151.17;Formula One '06;
@@ -3041,7 +3041,7 @@ SLPM_627.47;G1 JOCKEY 3 [KOEI TEIBAN SERIES];
 SLPM_625.36;G1 JOCKEY 3 [KOEI THE BEST];
 SLPM_622.79;G1 Jockey 3 + Winning Post 5 Maximum 2002 (Twin Pack);
 SLPM_622.80;G1 Jockey 3 + Winning Post 5 Maximum 2002 (Twin Pack)(Winning Post 5 Maximum 2002 Disc);
-SLES_539.17;G1 Jockey 4;
+SLES_539.17;G1 Jockey 4;G1 Jockey 4
 SLPM_662.29;G1 Jockey 4;
 SLPM_550.73;G1 Jockey 4 - 2008 ((Twin Pack with Winning Post 7 Max08));
 SLPM_668.12;G1 Jockey 4 (Koei The Best);
@@ -3318,7 +3318,7 @@ SLPM_660.86;GOKUJO SEITOKAI;
 SLPM_666.31;GOKUJO SEITOKAI [KONAMI THE BEST];
 SLES_531.74;Golden Age of Racing;
 SLES_529.77;GoldenEye: Agente Corrupto;
-SLES_529.74;GoldenEye: Rogue Agent;
+SLES_529.74;GoldenEye: Rogue Agent;GoldenEye - Rogue Agent
 SLUS_210.64;GoldenEye: Rogue Agent;
 SLPS_250.46;GOLF NAVIGATOR VOL.1;
 SLPS_250.47;GOLF NAVIGATOR VOL.2;
@@ -3416,7 +3416,7 @@ SLES_525.41;Grand Theft Auto: San Andreas;
 SLES_529.27;Grand Theft Auto: San Andreas;
 SLUS_209.46;Grand Theft Auto: San Andreas;
 SLUS_205.52;Grand Theft Auto: Vice City;
-SLES_546.22;Grand Theft Auto: Vice City Stories;
+SLES_546.22;Grand Theft Auto: Vice City Stories;Grand Theft Auto - VCS
 SLES_546.23;Grand Theft Auto: Vice City Stories;
 SLUS_215.90;Grand Theft Auto: Vice City Stories;
 SCPS_550.12;GRANDIA II;
@@ -3576,7 +3576,7 @@ SLPS_255.20;GUNDAM TRUE ODYSSEY - USHINAWARETA G NO DENSETSU;
 SLPS_732.46;GUNDAM TRUE ODYSSEY - USHINAWARETA G NO DENSETSU [PLAYSTATION 2 THE BEST];
 SLES_512.89;Gunfighter 2 - Legend of Jesse James;
 SCPS_560.14;GUNGRAVE;
-SLES_512.36;Gungrave;
+SLES_512.36;Gungrave;Gungrave
 SLPM_651.53;GUNGRAVE;
 SLUS_204.93;GUNGRAVE;
 SLUS_210.20;GunGrave - OverDose;
@@ -3586,7 +3586,7 @@ SCAJ_200.67;Gungrave OD;
 SCAJ_200.82;Gungrave OD;
 SCKA_200.26;Gungrave OD;
 SLPM_654.92;Gungrave OD;
-SLES_529.41;Gungrave Overdose;
+SLES_529.41;Gungrave Overdose;Gungrave - Overdose
 SLES_501.58;Gungriffon Blaze;
 SLES_501.59;Gungriffon Blaze;
 SLES_501.60;Gungriffon Blaze;
@@ -3993,7 +3993,7 @@ SLKA_250.60;I.Q. Remix;
 SLPM_662.72;I/O;
 SLPM_663.01;Ibara;
 SLUS_218.78;Ice Age - Dawn of the Dinosaurs;
-SLES_539.84;Ice Age 2 - The Meltdown;
+SLES_539.84;Ice Age 2 - The Meltdown;Ice Age 2 - The Meltdown
 SLPM_664.97;Ice Age 2 - The Meltdown;
 SLUS_213.07;Ice Age 2 - The Meltdown;
 SLES_541.47;Ice Age 2: The Meltdown;
@@ -4090,7 +4090,7 @@ SLES_531.86;International Super Karts;
 SLES_500.39;International Superstar Soccer;
 SLES_500.40;International Superstar Soccer;
 SLES_500.60;International Superstar Soccer;
-SLES_507.87;International Superstar Soccer 2;
+SLES_507.87;International Superstar Soccer 2;International Superstar Soccer 2
 SLES_507.90;International Superstar Soccer 2;
 SLPM_645.10;International Superstar Soccer 2;
 SLES_514.35;International Superstar Soccer 3;
@@ -4129,7 +4129,7 @@ SLPM_667.64;Izumo Zero;
 SLES_546.63;Jackass - The Game;
 SLES_550.81;Jackass - The Game;
 SLUS_216.27;Jackass - The Game;
-SLES_537.78;Jacked;
+SLES_537.78;Jacked;Jacked
 SCES_524.12;Jackie Chan Adventures;
 SLUS_212.47;Jackie Chan Adventures;
 SLUS_006.84;Jackie Chan Stuntmaster;
@@ -4814,7 +4814,7 @@ SLES_512.27;Lara Croft Tomb Raider: The Angel of Darkness;
 SLUS_204.67;Lara Croft Tomb Raider: The Angel of Darkness;
 SLPS_252.46;Lara Croft Tomb Raider: Utsukushiki Toubousha;
 SLES_508.41;Largo Winch - Empire Under Threat;
-SLES_510.93;Largo Winch - Empire Under Threat;
+SLES_510.93;Largo Winch - Empire Under Threat;Largo Winch - EUT
 SLES_546.69;Lassie;
 SLPS_259.58;LAST ESCORT - CLUB KATZE;
 SLPS_259.57;LAST ESCORT - CLUB KATZE [LIMITED EDITION];
@@ -4932,7 +4932,7 @@ SLES_510.23;LMA Manager 2003;
 SLES_514.56;LMA Manager 2004;
 SLES_526.93;LMA Manager 2005;
 SLES_534.71;LMA Manager 2006;
-SLES_542.25;LMA Manager 2007;
+SLES_542.25;LMA Manager 2007;LMA Manager 2007
 SLES_539.23;London Cab Challenge;
 SLES_536.54;London Racer - Destruction Madness;
 SLES_535.36;London Racer - Police Madness;
@@ -5617,8 +5617,8 @@ SLUS_207.02;Monster Rancher 4;
 SLUS_213.30;Monster Rancher 5;
 SLES_544.10;Monster Trux Arenas (Special Edition);
 SLES_541.10;Monster Trux Arenas: Special Edition;
-SLES_527.50;Monster Trux Extreme - Arena Edition;
-SLES_530.05;Monster Trux Extreme - Off-Road Edition;
+SLES_527.50;Monster Trux Extreme - Arena Edition;Monster Trux Extreme - AE
+SLES_530.05;Monster Trux Extreme - Off-Road Edition;Monster Trux Extreme - OE
 SCES_506.03;Monsters, Inc.: Scare Island;
 SLES_551.22;Moorhuhn Fun Kart 2008;
 SLUS_204.23;MORTAL KOMBAT - DEADLY ALLIANCE;
@@ -6463,7 +6463,7 @@ SCES_508.88;Pac-Man World 2;
 SLPS_251.41;Pac-Man World 2;
 SLUS_202.24;Pac-Man World 2;
 SLES_539.59;Pac-Man World 3;
-SLUS_212.19;Pac-Man World 3;
+SLUS_212.19;Pac-Man World 3;Pac-Man World 3
 SLES_545.84;Pac-Man World Rally;
 SLUS_213.28;Pac-Man World Rally;
 SLES_546.65;Paddington Bear;
@@ -6508,11 +6508,11 @@ SLES_555.87;PES 2010: Pro Evolution Soccer;
 SLUS_219.18;PES 2010: Pro Evolution Soccer;
 SLES_556.56;PES 2012: Pro Evolution Soccer;
 SLES_556.58;PES 2012: Pro Evolution Soccer;
-SLUS_219.48;PES 2012: Pro Evolution Soccer;
+SLUS_219.48;PES 2012: Pro Evolution Soccer;Pro Evolution Soccer 2012
 SLES_556.66;PES 2013: Pro Evolution Soccer;
 SLES_556.69;PES 2013: Pro Evolution Soccer;
-SLUS_219.55;PES 2013: Pro Evolution Soccer;
-SLES_556.73;PES 2014: Pro Evolution Soccer;
+SLUS_219.55;PES 2013: Pro Evolution Soccer;Pro Evolution Soccer 2013
+SLES_556.73;PES 2014: Pro Evolution Soccer;Pro Evolution Soccer 2014
 SLES_545.92;Petanque Pro;
 SLES_537.03;Peter Jackson's King Kong - The Official Game of the Movie;
 SLES_537.04;Peter Jackson's King Kong - The Official Game of the Movie;
@@ -6650,7 +6650,7 @@ SLPM_622.36;Power Smash 2;
 SLPM_622.65;Power Smash 2;
 SLPM_623.94;Power Smash 2 (Sega The Best);
 SLES_547.17;Power Volleyball;
-SLES_524.18;Powerdrome;
+SLES_524.18;Powerdrome;Powerdrome
 SLES_540.84;PowerShot Pinball;
 SLES_530.91;Predator - Concrete Jungle;
 SLUS_208.75;Predator - Concrete Jungle;
@@ -6720,7 +6720,7 @@ SLES_514.92;Pro Beach Soccer;
 SLES_548.88;Pro Biker 2;
 SLES_504.12;Pro Evolution Soccer;
 SLES_504.62;Pro Evolution Soccer;
-SLES_511.14;Pro Evolution Soccer 2;
+SLES_511.14;Pro Evolution Soccer 2;Pro Evolution Soccer 2
 SLES_549.13;Pro Evolution Soccer 2008;
 SLES_549.14;Pro Evolution Soccer 2008;
 SLES_550.21;Pro Evolution Soccer 2008;
@@ -8464,7 +8464,7 @@ SCUS_972.75;SOCOM II - U.S. Navy SEALs;
 SCUS_975.11;SOCOM II - U.S. Navy SEALs (Greatest Hits);
 SCKA_200.53;SOCOM II - U.S. Navy SEALs (Playstation 2 Big Hit Series);
 SCES_509.28;SOCOM: U.S. Navy SEALs;
-SCES_544.77;SOCOM: U.S. Navy SEALs: Combined Assault;
+SCES_544.77;SOCOM: U.S. Navy SEALs: Combined Assault;SOCOM - US Navy SEALs - CA
 SCUS_975.45;SOCOM: U.S. Navy SEALs: Combined Assault;
 SLPS_204.79;Sokudoku Master;
 SLES_538.73;Sol Divide;
@@ -8891,7 +8891,7 @@ SLES_505.62;Super Bust-A-Move 2;
 SLUS_204.60;Super Bust-A-Move 2;
 SLES_541.61;Super Dragon Ball Z;
 SLPS_256.42;Super Dragon Ball Z;
-SLUS_214.42;Super Dragon Ball Z;
+SLUS_214.42;Super Dragon Ball Z;Super Dragon Ball Z
 SLES_516.78;Super Farm;
 SLES_545.63;Super Fruit Fall;
 SLPM_650.21;Super Galdelic Hour;
@@ -8996,13 +8996,13 @@ SLES_513.93;Syberia;
 SLES_528.31;SYBERIA II;
 SLES_532.35;SYBERIA II;
 SCUS_973.62;Syphon Filter - Dark Mirror;
-SCUS_975.84;Syphon Filter - Logan's Shadow;
+SCUS_975.84;Syphon Filter - Logan's Shadow;Syphon Filter - Logans Shadow
 SCKA_200.32;Syphon Filter - The Omega Strain;
 SCUS_972.64;Syphon Filter - The Omega Strain;
 SCUS_975.20;Syphon Filter - The Omega Strain (Greatest Hits);
 SLES_520.33;Syphon Filter – The Omega Strain;
-SCES_547.94;Syphon Filter: Dark Mirror;
-SCES_520.33;Syphon Filter: The Omega Strain;
+SCES_547.94;Syphon Filter: Dark Mirror;Syphon Filter - Dark Mirror
+SCES_520.33;Syphon Filter: The Omega Strain;Syphon Filter - The Omega Strain
 SLUS_215.95;T.M.N.T. - Teenage Mutant Ninja Turtles;
 SLPM_623.16;Table Mahjong (Superlite 2000 Series);
 SLPS_258.38;Taiheiyou no Arashi - Senkan Yamato, Akatsuki ni Shutsugekisu;
@@ -9307,7 +9307,7 @@ SLUS_208.87;The Adventures of Jimmy Neutron - Attack of the Twonkies;
 SLES_541.52;The Ant Bully;
 SLES_541.78;The Ant Bully;
 SLUS_214.15;The Ant Bully;
-SLES_527.78;The Arcade;
+SLES_527.78;The Arcade;Arcade The
 SLUS_208.03;The Bards Tale;
 SLES_528.94;The Bard's Tale;
 SLES_531.54;The Bard's Tale;
@@ -9464,7 +9464,7 @@ SLKA_251.67;The King of Fighters XI;
 SLPS_256.60;The King of Fighters XI;
 SLUS_216.87;The King of Fighters XI;
 SLPS_257.89;The King of Fighters XI (SNK Best Collection);
-SLES_539.99;The King of Fighters: Neowave;
+SLES_539.99;The King of Fighters: Neowave;King of Fighters The - Neowave
 SLES_516.15;The King of Route 66;
 SLUS_205.22;The King of Route 66;
 SLUS_200.45;The Legend of Alon Dar;
@@ -9621,7 +9621,7 @@ SLES_549.84;The Water Horse - Legends of the Deep;
 SLES_505.03;The Weakest Link;
 SLES_533.21;The X-Factor Sing;
 SLES_523.41;The X-Files: Resist or Serve;
-SLUS_201.79;The X-Files: Resist or Serve;
+SLUS_201.79;The X-Files: Resist or Serve;X-Files The - Resist or Serve
 SLUS_200.99;Theme Park Roller Coaster;
 SLES_500.32;Theme Park World;
 SLES_548.03;They Came From the Skies;
@@ -9668,7 +9668,7 @@ SLES_548.87;Thrillville - Verrückte Achterbahn;
 SLUS_216.11;Thrillville: Off the Rails;
 SLPM_550.96;Thunder Force VI;
 SLES_547.38;Thunderbirds;
-SLES_505.54;Thunderhawk - Operation Phoenix;
+SLES_505.54;Thunderhawk - Operation Phoenix;Thunderhawk - Operation Phoenix
 SLPS_250.84;Thunderstrike - Operation Phoenix;
 SLUS_202.32;Thunderstrike - Operation Phoenix;
 SCAJ_201.22;Tian Xing - Swords of Destiny;
@@ -10348,7 +10348,7 @@ SLUS_209.47;Winback 2 - Project Poseidon;
 SLPM_551.13;Winback 2 - Project Poseidon (Koei Teiban Series);
 SLPM_654.64;Wind - A Breath of Heart;
 SLPM_666.35;Wind - A Breath of Heart (Alchemist Best Collection);
-SLUS_214.64;Winning Eleven - Pro Evolution Soccer 2007;
+SLUS_214.64;Winning Eleven - Pro Evolution Soccer 2007;Pro Evolution Soccer 2007
 SLUS_206.23;Winning Eleven 6 World Soccer – International;
 SLUS_208.63;Winning Eleven 7 World Soccer – International;
 SLUS_211.17;Winning Eleven 8 World Soccer – International;
@@ -10372,20 +10372,20 @@ SLPM_667.02;Winning Post 7 - Maximum 2007;
 SLPM_669.50;Winning Post 7 - Maximum 2008;
 SLPM_668.11;Winning Post 7 (Koei The Best);
 KOEI_000.43;Winning Post 7 (Premium Box);
-SLES_539.48;Winter Sports;
+SLES_539.48;Winter Sports;Winter Sports
 SLUS_218.49;Winter Sports 2: The Next Challenge;
 SLUS_217.13;Winter Sports 2008: The Ultimate Challenge;
 SLUS_203.21;Winter X Games Snowboarding 2002;
-SLES_500.35;Winter X-Games Snowboarding;
-SLES_506.70;Winter X-Games Snowboarding 2;
+SLES_500.35;Winter X-Games Snowboarding;Winter X Games Snowboarding
+SLES_506.70;Winter X-Games Snowboarding 2;Winter X Games Snowboarding 2
 SLES_532.19;Winx Club;
-SCES_500.05;Wipeout Fusion;
+SCES_500.05;Wipeout Fusion;WipEout Fusion
 SLUS_204.62;Wipeout Fusion;
-SCES_547.48;Wipeout Pulse;
+SCES_547.48;Wipeout Pulse;WipEout Pulse
 SLPM_654.84;WISP - Word Image Sound Play;
-SLES_537.16;WITHOUT WARNING;
+SLES_537.16;WITHOUT WARNING;Without Warning
 SLUS_211.56;WITHOUT WARNING;
-SLES_511.18;Wizardry - Tales of the Forsaken Land;
+SLES_511.18;Wizardry - Tales of the Forsaken Land;Wizardry - Tale ot Forsaken Land
 SLPM_658.40;Wizardry  X - Zensen no Gakufu;
 SLPM_662.34;Wizardry  X - Zensen no Gakufu (Wonder Price);
 SLPM_663.00;Wizardry  X 2 - Mugen no Gakuto;
@@ -10399,13 +10399,13 @@ SLPM_627.20;Wizardry Summoner (Taito The Best);
 SLUS_202.59;Wizardry: Tale of the Forsaken Land;
 SLES_508.54;WM Nationalspieler;
 SLUS_217.42;Women's Volleyball Championship;
-SLES_506.13;Woody Woodpecker;
+SLES_506.13;Woody Woodpecker;Woody Woodpecker
 SLPM_645.19;Woody Woodpecker - Escape from Buzz Buzzard Park;
 SLUS_203.41;Woody Woodpecker - Escape from Buzz Buzzard Park;
 SLUS_213.40;World Championship Cards;
 SLUS_214.57;World Championship Paintball;
 SLES_531.30;WORLD CHAMPIONSHIP POKER;
-SLUS_210.28;WORLD CHAMPIONSHIP POKER;
+SLUS_210.28;WORLD CHAMPIONSHIP POKER;World Championship Poker
 SLES_545.47;World Championship Poker - Featuring Howard Lederer - All in;
 SLES_529.95;World Championship Poker 2 - Featuring Howard Lederer;
 SLES_539.95;World Championship Poker 2 featuring Howard Lederer;
@@ -10414,28 +10414,28 @@ SLUS_214.12;World Championship Poker 2 featuring Howard Lederer - All in;
 SLES_524.83;World Championship Pool 2004;
 SLUS_207.60;World Championship Pool 2004;
 SLES_523.12;World Championship Rugby;
-SLES_503.95;World Championship Snooker 2002;
-SLES_513.98;World Championship Snooker 2003;
-SLES_523.86;World Championship Snooker 2004;
+SLES_503.95;World Championship Snooker 2002;World Championship Snooker 2002
+SLES_513.98;World Championship Snooker 2003;World Championship Snooker 2003
+SLES_523.86;World Championship Snooker 2004;World Championship Snooker 2004
 SLES_501.70;World Destruction League - Thunder Tanks;
-SLUS_200.05;World Destruction League - Thunder Tanks;
-SLES_502.62;World Destruction League - War Jets;
+SLUS_200.05;World Destruction League - Thunder Tanks;World Destruction League - TT
+SLES_502.62;World Destruction League - War Jets;World Destruction League - WJ
 SLUS_200.07;World Destruction League - War Jetz;
 SLPS_201.95;World Fantasista;
 SLES_525.16;World Fighting;
 SLPM_663.24;World Football Climax;
 SLPS_259.33;World Heroes - Gorgeous (NeoGeo Online Collection Vol. 9 The Best);
 SLPS_257.82;World Heroes - Gorgeous (NeoGeo Online Collection Vol. 9);
-SLES_552.33;World Heroes Anthology;
+SLES_552.33;World Heroes Anthology;World Heroes Anthology
 SLUS_217.25;World Heroes Anthology;
-SLES_515.09;World of Outlaws: Sprint Cars;
+SLES_515.09;World of Outlaws: Sprint Cars;World of Outlaws - Sprint Cars
 SLUS_202.83;World of Outlaws: Sprint Cars 2002;
-SLES_536.89;World Poker Tour;
+SLES_536.89;World Poker Tour;World Poker Tour
 SLUS_213.33;World Poker Tour 2K6;
 SLUS_214.72;World Pool Challenge '06;
-SLES_513.87;World Racing;
+SLES_513.87;World Racing;World Racing
 SLES_518.81;World Racing;
-SLES_536.46;World Racing 2;
+SLES_536.46;World Racing 2;World Racing 2
 SLPM_659.75;World Rally Championship 4;
 SLPM_663.34;World Rally Championship 4 (Spike The Best);
 SLPM_652.84;World Rally Championship II Extreme;
@@ -10444,11 +10444,11 @@ SLUS_206.11;World Series Baseball 2K3;
 SLES_537.24;World Series of Poker;
 SLUS_213.01;World Series of Poker;
 SLUS_214.91;World Series of Poker - Tournament of Champions;
-SLES_544.48;World Series of Poker - Tournament of Champions 2007;
+SLES_544.48;World Series of Poker - Tournament of Champions 2007;World Series of Poker 07
 SLES_549.61;World Series of Poker - Tournament of Champions 2008;
-SLUS_216.86;World Series of Poker 2008 - Battle for the Bracelets;
-SLES_530.82;World Snooker Championship 2005;
-SLES_540.13;World Snooker Championship 2007;
+SLUS_216.86;World Series of Poker 2008 - Battle for the Bracelets;World Series of Poker 08 - BftB
+SLES_530.82;World Snooker Championship 2005;World Snooker Championship 2005
+SLES_540.13;World Snooker Championship 2007;World Snooker Championship 2007
 SLKA_253.81;World Soccer Winning Eleven 10;
 SLPM_663.74;World Soccer Winning Eleven 10;
 SLKA_251.53;World Soccer Winning Eleven 10 - Liveware Edition;
@@ -10482,7 +10482,7 @@ SLKA_252.98;World Soccer Winning Eleven 9;
 SLPM_660.09;World Soccer Winning Eleven 9;
 SLKA_253.59;World Soccer Winning Eleven 9 - Liveware Evolution;
 SLPM_662.55;World Soccer Winning Eleven 9 - Liveware Evolution;
-SLES_540.80;World Super Police;
+SLES_540.80;World Super Police;World Super Police
 SLPM_657.61;World Super Police;
 SLUS_216.56;World Superbikes '07;
 SLPM_661.35;World Tank Museum For Game - Toubu Sensen;
@@ -10490,41 +10490,41 @@ SCUS_971.72;World Tour Soccer 2002;
 SCUS_972.33;World Tour Soccer 2003;
 SCUS_973.65;World Tour Soccer 2005;
 SCUS_974.63;World Tour Soccer 2006;
-SLES_519.24;World War Zero – Ironstorm;
-SLES_547.92;World Wrestling Championship;
+SLES_519.24;World War Zero – Ironstorm;World War Zero - IronStorm
+SLES_547.92;World Wrestling Championship;World Wrestling Championship
 SLES_518.43;Worms 3D;
-SLUS_208.94;WORMS 3D;
-SLES_530.96;Worms 4: Mayhem;
-SLES_505.89;WORMS BLAST;
+SLUS_208.94;WORMS 3D;Worms 3D
+SLES_530.96;Worms 4: Mayhem;Worms 4 - Mayhem
+SLES_505.89;WORMS BLAST;Worms Blast
 SLES_523.42;Worms Forts - Under Siege;
-SLES_527.34;Worms Forts - Under Siege;
+SLES_527.34;Worms Forts - Under Siege;Worms Forts - Under Siege
 SLUS_210.93;Worms Forts - Under Siege!;
 SLES_521.01;Wrath Unleashed;
-SLUS_208.40;Wrath Unleashed;
-SLUS_204.19;WRC - World Rally Championship;
+SLUS_208.40;Wrath Unleashed;Wrath Unleashed
+SLUS_204.19;WRC - World Rally Championship;WRC - World Rally Championship
 SLPM_744.06;WRC - World Rally Championship (Playstation 2 The Best);
-SCES_509.34;WRC - World Rally Championship II Extreme;
+SCES_509.34;WRC - World Rally Championship II Extreme;WRC II Extreme
 SCES_509.35;WRC - World Rally Championship II Extreme;
 SLPM_655.83;WRC 3;
 SLPM_661.03;WRC 3 (Spike The Best);
-SCES_516.84;WRC 3: The Official Game of the FIA World Rally Championship;
-SCES_523.89;WRC 4: The Official Game of the FIA World Rally Championship;
+SCES_516.84;WRC 3: The Official Game of the FIA World Rally Championship;FIA World Rally Championship 3
+SCES_523.89;WRC 4: The Official Game of the FIA World Rally Championship;FIA World Rally Championship 4
 SCES_536.80;WRC avec Sébastien Loeb Édition 2005;
-SCES_532.47;WRC: Rally Evolved;
+SCES_532.47;WRC: Rally Evolved;WRC - Rally Evolved
 SCES_501.39;WRC: World Rally Championship;
 SLPS_250.99;WRC: World Rally Championship - Sekai Rally Senshuken;
 SLES_512.02;Wreckless - The Yakuza Missions;
-SLUS_204.31;Wreckless - The Yakuza Missions;
+SLUS_204.31;Wreckless - The Yakuza Missions;Wreckless - The Yakuza Missions
 SLPM_662.39;Wrestle Angels - Survivor;
 SLPM_669.27;Wrestle Angels - Survivor (Good Price);
 SLPM_664.01;Wrestle Kingdom;
 SLPM_667.14;Wrestle Kingdom 2: Pro Wrestling Sekai Taisen;
-SLES_502.83;WTA TOUR TENNIS;
+SLES_502.83;WTA TOUR TENNIS;WTA Tour Tennis
 SLPM_620.46;WTA TOUR TENNIS;
 SLUS_203.57;WTA TOUR TENNIS;
-SLUS_219.40;WWE All Stars;
+SLUS_219.40;WWE All Stars;WWE All-Stars
 SLES_556.48;WWE All-Stars;
-SLES_516.00;WWE Crush Hour;
+SLES_516.00;WWE Crush Hour;WWE Crush Hour
 SLUS_203.85;WWE Crush Hour;
 SLUS_204.83;WWE Smackdown - Shut Your Mouth;
 SLKA_252.44;WWE SmackDown vs. RAW;
@@ -10535,13 +10535,13 @@ SLKA_253.65;WWE SmackDown vs. Raw 2008;
 SLPM_668.63;WWE SmackDown vs. RAW 2008;
 SLKA_254.51;WWE SmackDown vs. Raw 2008 (BigHit Series);
 SLKA_254.48;WWE SmackDown vs. RAW 2009;
-SLUS_219.01;WWE SmackDown vs. Raw 2010;
+SLUS_219.01;WWE SmackDown vs. Raw 2010;WWE SmackDown vs Raw 2010
 SLES_520.36;WWE SmackDown! - Here Comes the Pain!;
 SLES_504.77;WWE SmackDown! - Just Bring It;
-SLES_512.83;WWE SmackDown! - Shut Your Mouth;
+SLES_512.83;WWE SmackDown! - Shut Your Mouth;WWE SmackDown Shut Your Mouth
 SLKA_250.30;WWE SmackDown! - Shut your mouth;
 SLPS_253.09;WWE SmackDown! 4 - Shut your mouth (Yuke's The Best);
-SLUS_207.87;WWE Smackdown! Here Comes the Pain;
+SLUS_207.87;WWE Smackdown! Here Comes the Pain;WWE SmackDown -HCtP
 SLKA_251.16;WWE Smackdown! Here Comes the Pain ;
 SLES_527.81;WWE SmackDown! vs RAW;
 SLES_536.76;WWE SmackDown! vs RAW 2006;
@@ -10553,26 +10553,26 @@ SLES_548.79;WWE SmackDown! vs RAW 2008;
 SLES_552.51;WWE SmackDown! vs RAW 2009;
 SLES_555.45;WWE SmackDown! vs RAW 2010;
 SLES_556.35;WWE SmackDown! vs RAW 2011;
-SLUS_210.60;WWE SmackDown! vs. Raw;
-SLUS_212.86;WWE Smackdown! vs. RAW 2006;
-SLUS_214.27;WWE Smackdown! vs. RAW 2007;
-SLUS_216.45;WWE Smackdown! vs. RAW 2008;
-SLUS_218.10;WWE Smackdown! vs. RAW 2009;
-SLUS_219.39;WWE Smackdown! vs. RAW 2011;
+SLUS_210.60;WWE SmackDown! vs. Raw;WWE SmackDown vs Raw
+SLUS_212.86;WWE Smackdown! vs. RAW 2006;WWE SmackDown vs Raw 2006
+SLUS_214.27;WWE Smackdown! vs. RAW 2007;WWE SmackDown vs Raw 2007
+SLUS_216.45;WWE Smackdown! vs. RAW 2008;WWE SmackDown vs Raw 2008
+SLUS_218.10;WWE Smackdown! vs. RAW 2009;WWE SmackDown vs Raw 2009
+SLUS_219.39;WWE Smackdown! vs. RAW 2011;WWE SmackDown vs Raw 2011
 SLUS_203.16;WWF SmackDown! Just Bring It;
-SLES_542.05;WWI - Aces of the Sky;
-SLES_536.53;WWII - Battles Over Europe;
-SLES_542.56;WWII - Battles Over the Pacific;
-SLES_536.51;WWII - Soldier;
-SLES_529.54;WWII - Tank Battles;
+SLES_542.05;WWI - Aces of the Sky;WWI - Aces of the Sky
+SLES_536.53;WWII - Battles Over Europe;WWII - Battle Over Europe
+SLES_542.56;WWII - Battles Over the Pacific;WWII - Battle Over the Pacific
+SLES_536.51;WWII - Soldier;WWII - Soldier
+SLES_529.54;WWII - Tank Battles;WWII - Tank Battles
 SLPM_656.72;W-Wish;
 SLPM_656.71;W-Wish (Limited Edition);
-SLUS_200.94;X Squad;
+SLUS_200.94;X Squad;X Squad
 SLES_541.42;Xena - Warrior Princess;
-SLES_545.41;Xena - Warrior Princess;
+SLES_545.41;Xena - Warrior Princess;Xena - Warrior Princess
 SLES_545.42;Xena: Warrior Princess;
 SLUS_204.69;Xenosaga - Episode I - Der Wille zur Macht;
-SLUS_208.92;Xenosaga - Episode II - Jenseits von Gut und Böse [2 DISCS];
+SLUS_208.92;Xenosaga - Episode II - Jenseits von Gut und Böse [2 DISCS];Xenosaga Episode II - JvGuB - D1
 SLUS_213.89;Xenosaga - Episode III - Also Sprach Zarathustra [2 DISCS];
 SCPS_559.01;Xenosaga Episode I - Der Wille zur Macht;
 SLPS_290.02;Xenosaga Episode I - Der Wille zur Macht;
@@ -10587,63 +10587,63 @@ SCAJ_200.86;Xenosaga Episode II- Jenseits von Gut und Böse [2 DISCS];
 SLPS_253.68;Xenosaga Episode II- Jenseits von Gut und Böse [2 DISCS];
 SCES_820.34;Xenosaga Episode II: Jenseits von Gut und Böse (Disc 1);
 SCES_820.35;Xenosaga Episode II: Jenseits von Gut und Böse (Disc 2);
-SLUS_211.33;Xenosaga Episode II: Jenseits von Gut und Böse (Disc 2);
+SLUS_211.33;Xenosaga Episode II: Jenseits von Gut und Böse (Disc 2);Xenosaga Episode II - JvGuB - D2
 SCAJ_201.79;Xenosaga Episode III - Also Sprach Zarathustra [2 DISCS];
 SLPS_256.40;Xenosaga Episode III - Also Sprach Zarathustra [2 DISCS];
 SLUS_214.17;Xenosaga Episode III: Also sprach Zarathustra;
 SCAJ_200.81;Xenosaga Freaks;
 SLPS_253.53;Xenosaga Freaks;
-SLES_502.10;XG3 - Extreme-G Racing;
+SLES_502.10;XG3 - Extreme-G Racing;XG3 - Extreme-G Racing
 SLPM_620.92;XG3 Extreme G Racing;
 SLES_516.36;XGRA: Extreme G Racing Association;
-SLUS_206.32;XGRA: Extreme G Racing Association;
+SLUS_206.32;XGRA: Extreme G Racing Association;Extreme G Racing Association
 SCAJ_200.07;XI Go;
 SCCS_400.04;XI Go;
 SCKA_200.01;XI Go;
 SCPS_150.29;XI Go;
 SLES_544.86;Xiaolin Showdown;
-SLUS_214.05;Xiaolin Showdown;
-SLES_517.04;XII Stag;
+SLUS_214.05;Xiaolin Showdown;Xiaolin Showdown
+SLES_517.04;XII Stag;XII Stag
 SLKA_150.11;XII Stag;
 SLPM_623.18;XII Stag;
 SLES_512.44;XIII;
 SLKA_251.05;XIII;
 SLPS_253.75;XIII;
-SLUS_206.77;XIII;
+SLUS_206.77;XIII;XIII
 SLPS_254.72;XIII [BEST COLLECTION];
 SLES_508.98;X-MEN - NEXT DIMENSION;
 SLES_508.99;X-MEN - NEXT DIMENSION;
 SLES_509.00;X-MEN - NEXT DIMENSION;
-SLUS_202.79;X-MEN - NEXT DIMENSION;
+SLUS_202.79;X-MEN - NEXT DIMENSION;X-Men - Next Dimension
 SLES_540.66;X-Men - The Official Game;
-SLUS_211.07;X-Men - The Official Game;
+SLUS_211.07;X-Men - The Official Game;X-Men - The Official Game
 SLUS_203.37;X-Men - Wolverines Revenge;
-SLES_512.86;X-Men 2 - Wolverine's Revenge;
+SLES_512.86;X-Men 2 - Wolverine's Revenge;X-Men 2 - Wolverines Revenge
 SLES_512.87;X-Men 2: La Vengeance de Wolverine;
 SLES_515.48;X-Men 2: Wolverine's Revenge;
 SLES_526.24;X-Men Legends;
 SLES_526.25;X-Men Legends;
-SLUS_206.56;X-Men Legends;
-SLUS_211.38;X-Men Legends II - Rise of Apocalypse;
+SLUS_206.56;X-Men Legends;X-Men Legends
+SLUS_211.38;X-Men Legends II - Rise of Apocalypse;X-Men Legends II - RoA
 SLES_533.74;X-Men Legends II - Rise of the Apocalypse;
 SLES_533.77;X-Men Legends II - Rise of the Apocalypse;
 SLES_554.94;X-Men Origins - Wolverine;
 SLES_554.95;X-Men Origins - Wolverine;
-SLUS_218.80;X-Men Origins – Wolverine;
-SLES_519.74;XS Juniior League Soccer;
+SLUS_218.80;X-Men Origins – Wolverine;X-Men Origins - Wolverine
+SLES_519.74;XS Juniior League Soccer;XS Junior League Soccer
 SLES_500.31;X-Squad;
-SLES_509.98;X-treme Express - World Grand Prix;
-SLES_531.41;X-Treme Quads;
-SLES_528.71;X-Treme Speed;
+SLES_509.98;X-treme Express - World Grand Prix;X-treme Express - WGP
+SLES_531.41;X-Treme Quads;X-Treme Quads
+SLES_528.71;X-Treme Speed;Xtreme Speed
 SLPS_258.03;xxxHolic - Shigatsu Tsuitachi no Izayoi Sowa;
-SLES_547.84;Xyanide: Resurrection;
+SLES_547.84;Xyanide: Resurrection;Xyanide - Resurrection
 SLES_544.84;Xyaride – Resurrection;
 SLPS_202.87;Yakiniku Bugyou Bonfire!;
 SLES_541.71;YAKUZA;
-SLUS_213.48;Yakuza;
+SLUS_213.48;Yakuza;Yakuza
 SLES_552.42;Yakuza 2;
-SLUS_217.69;Yakuza 2;
-SLES_533.99;Yakuza Fury;
+SLUS_217.69;Yakuza 2;Yakuza 2
+SLES_533.99;Yakuza Fury;Yakuza Fury
 SLPS_258.16;Yamasa Digi World - Collaboration SP Pachi-Slot Ridge Racer;
 SLPS_201.58;Yamasa Digi World 2 - LCD Edition;
 SLPS_201.56;Yamasa Digi World 2 - LCD Edition (Deluxe Edition);
@@ -10666,7 +10666,7 @@ SLPM_662.95;Yamiyo ni Sasayaku - Tantei Sagara Kyouichirou(Limited Edition);
 SLPM_620.51;Yanya Caballista featuring Gawoo;
 SLUS_202.78;Yanya Caballista: City Skater;
 SLPM_665.98;Yatohime Zankikou;
-SLES_534.36;YetiSports Arctic Adventures;
+SLES_534.36;YetiSports Arctic Adventures;Yetisports Arctic Adventures
 SCPS_110.18;Yoake no Mariko;
 SCPS_110.10;Yoake no Mariko (With Microphone);
 SCPS_110.21;Yoake no Mariko 2nd Act;
@@ -10703,9 +10703,9 @@ SLPM_658.29;Y'S NAPISHTIM NO HAKO [LIMITED EDITION];
 SLUS_209.80;Y'S THE ARK OF NAPISHTIM;
 SLKA_253.49;Y'S THE ARK OF NAPISHTIM [WITH GUIDE BOOK];
 SLPM_663.60;Ys V - Lost Kefin, Kingdom of Sand;
-SLES_530.79;Ys: The Ark of Napishtim;
+SLES_530.79;Ys: The Ark of Napishtim;Ys - The Ark of Napishtim
 SLES_530.62;Yu Yu Hakuhso - Dark Tournament;
-SLUS_208.05;Yu Yu Hakusho - Dark Tournament;
+SLUS_208.05;Yu Yu Hakusho - Dark Tournament;Yu Yu Hakusho - Dark Tournament
 SLPS_254.99;Yu Yu Hakusho Forever;
 SLPS_732.39;Yu Yu Hakusho Forever (Playstation 2 The Best);
 SLPM_656.13;Yu-Gi-Oh Capsule Monster Coliseum;
@@ -10716,10 +10716,10 @@ SLPM_652.22;Yu-Gi-Oh Shin Duel Monsters 2 (Konami The Best);
 SLES_525.76;Yu-Gi-Oh! - Capsule Monster Colisee;
 SLES_515.79;Yu-Gi-Oh! - The Duelists of the Roses;
 SLES_524.80;Yu-Gi-Oh! - The Duelists of the Roses;
-SLUS_209.40;Yu-Gi-Oh! Capsule Monster Coliseumt;
-SLES_550.17;Yu-Gi-Oh! GX – Tag Force Evolution;
+SLUS_209.40;Yu-Gi-Oh! Capsule Monster Coliseumt;Yu-Gi-Oh - CMC
+SLES_550.17;Yu-Gi-Oh! GX – Tag Force Evolution;Yu-Gi-Oh GX - TFE
 SLUS_216.83;Yu-Gi-Oh! The Beginning of Destiny;
-SLUS_205.15;Yu-Gi-Oh! The Duelists of the Roses;
+SLUS_205.15;Yu-Gi-Oh! The Duelists of the Roses;Yu-Gi-Oh - Duelists of the Roses
 LPMS_254.82;Yuki Katari [Renewal Version];
 SLPMS_25.48;Yuki Katari [Renewal Version];
 SLPM_667.07;YUKINKO DAISENPUU - SAIYUKI TO KOYUKI NO HIE HIE DAISOUDOU;
@@ -10733,10 +10733,10 @@ SLPM_650.19;Z.O.E. - Zone of Enders;
 SLPM_650.18;Z.O.E.- Zone of Enders (Limited Edition);
 SLUS_212.54;Zach Bell! Mamodo Battles;
 SLUS_205.28;Zapper - One Wicked Cricket;
-SLES_509.74;Zapper - One Wicked Cricket!;
+SLES_509.74;Zapper - One Wicked Cricket!;Zapper
 SLUS_213.63;Zatch Bell! Mamodo Fury;
 SLES_536.96;Zathura;
-SLUS_213.36;Zathura;
+SLUS_213.36;Zathura;Zathura
 SLPS_250.48;Zeonic Front - Kidou Senshi Gundam 0079;
 SLPS_254.88;Zeonic Front - Kidou Senshi Gundam 0079 (Gundam The Best);
 SCPS_550.02;ZERO;
@@ -10790,20 +10790,20 @@ SLPM_657.48;Zoids Struggle;
 SLPM_667.25;Zoids Struggle (TomyKore Best);
 SLPM_660.07;Zoids Tactics;
 SLPM_667.24;Zoids Tactics (TomyKore Best);
-SLES_535.92;Zombie Attack;
-SLES_545.69;Zombie Hunters 2;
-SLES_544.62;Zombie Virus;
-SLES_533.98;Zombie Zone;
-SLES_544.61;Zombie Zone - Other Side;
+SLES_535.92;Zombie Attack;Zombie Attack
+SLES_545.69;Zombie Hunters 2;Zombie Hunters 2
+SLES_544.62;Zombie Virus;Zombie Virus
+SLES_533.98;Zombie Zone;Zombie Zone
+SLES_544.61;Zombie Zone - Other Side;Zombie Zone - Other Side
 SLES_501.11;Zone of the Enders;
-SLUS_201.48;Zone of the Enders;
-SLES_511.13;Zone of the Enders - The 2nd Runner;
+SLUS_201.48;Zone of the Enders;Zone of the Enders
+SLES_511.13;Zone of the Enders - The 2nd Runner;Zone of the Enders - 2nd Runner
 SLKA_250.66;Zone of the Enders - The 2nd Runner;
 SLUS_205.45;Zone of the Enders - The 2nd Runner;
 ULKS_254.70;Zone of the Enders - The 2nd Runner (BigHit Series);
 SLPM_652.37;Zone of the Enders: Z.O.E;
 SLES_525.33;Zoo Puzzle;
-SLES_541.74;ZooCube;
+SLES_541.74;ZooCube;ZooCube
 SLPM_624.66;Zooo (SuperLite 2000 Series);
 SLPM_656.63;Zwei!!;
 SLPM_661.02;Zwei!! (Tatito The Best);

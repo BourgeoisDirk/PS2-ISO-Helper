@@ -18,7 +18,8 @@
         <CheckBox x:Name="LimitCharacters_CheckBox" Content="Limit Characters to &quot; abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_()[]&quot;" HorizontalAlignment="Left" Margin="34,102,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <CheckBox x:Name="RemoveBracketContent_CheckBox" Content="Remove Brackets &quot;(&quot; and &quot;)&quot; with Content" HorizontalAlignment="Left" Margin="34,117,0,0" VerticalAlignment="Top" IsChecked="True"/>
         <CheckBox x:Name="ShortenTo32Characters_CheckBox" Content="Force-Cut the Game Name to 32 Characters" HorizontalAlignment="Left" Margin="34,132,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="RunOplHelper_CheckBox" Content="Run OPL Helper when Done" HorizontalAlignment="Left" Margin="13,152,0,0" VerticalAlignment="Top" IsChecked="True"/>
+        <CheckBox x:Name="RunOplHelper_CheckBox" Content="Run OPL Helper when Done" HorizontalAlignment="Left" Margin="524,154,0,0" VerticalAlignment="Top" IsChecked="True" FlowDirection="RightToLeft"/>
+        
         <Button x:Name="OPL_Button" Content="OPL Helper" Margin="707,151,13,0" VerticalAlignment="Top" Click="OPL_Button_Click" />
 
         <TextBlock x:Name="Status_TextBlock" HorizontalAlignment="Left" Margin="10,183,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="261" Height="20" FontSize="10"/>

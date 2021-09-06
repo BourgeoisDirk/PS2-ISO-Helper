@@ -28,6 +28,9 @@ namespace OPL
         {
             if (GameMapping == null)
                 PS2_Codex.Functions.LoadGameMapping(ref GameMapping);
+
+            if (GameMapping == null)
+                RegisteredName_Column.Visibility = Visibility.Hidden;
         }        
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -70,7 +73,7 @@ namespace OPL
             RecordSet = new ObservableCollection<Record>();
 
             foreach (var filepath in Directory.GetFiles(SourceDirectory_Textbox.Text, "*.iso", SearchOption.TopDirectoryOnly))
-                RecordSet.Add(new Record(filepath));
+                RecordSet.Add(new Record(GameMapping, filepath));
 
             MappingToRecordSet();
 

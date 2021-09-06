@@ -497,12 +497,17 @@ namespace PS2_Codex
                     name = name.Substring(12);
             }
 
+            var mapused = false;
             if (mapping.ContainsKey(gameId)) { 
                 string mapped = mapping[gameId][1];
                 if (!string.IsNullOrEmpty(mapped))
+                {
                     name = mapped;
+                    mapused = true;
+                }
             }
-            else
+
+            if (!mapused)
             {
                 if (LimitCharacters)
                     name = Functions.LimitToAllowedCharacters(name);
